@@ -23,6 +23,12 @@ I started noting down and reaserching about what is my project going to have and
 
 <img width="503" alt="Screenshot 2025-06-08 at 12 41 48 PM" src="https://github.com/user-attachments/assets/e722692c-f6e8-4200-b323-1c638b9abbb8" />
 
+## MCU (Microcontroller Unit)
 I looked for a MCU to use and it was clear for me to use a ESP32 due to it's audio capablitlites. I originally looked into the TinyPICO due to it having a charging capabilites, small form factor and a DAC output. Sadly, my friend said it was way to expensive as a MCU coming in as $35 USD (including shipping). The TinyPICO also requires me to add and external DAC output due to the DAC on the TinyPICO originally for speakers. I asked for help in the awesome community of the slack hackclub and many people helped me in finding a better and cheaper option than the TinyPICO and I they suggested the ESP32 C series Mini, and thats where I came across the ESP32 C6 Super Mini. 
 
 The ESP32 C6 Super Mini includes, Battery pins for charging, uses USB C, 18 practical GPIOs to use, avalibility for OLED screen. I would also need ot add an external DAC and heakphone jack for the MCU but I was going to do that anyways.
+
+## OLED screen
+I wanted a decently sized screen due to the amount of information I wanted on it (BPM, battery indicator, preset indicator, volume indicator) I chose a 1.54 inch oled.
+
+
