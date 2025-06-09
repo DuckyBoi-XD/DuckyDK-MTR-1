@@ -6,7 +6,7 @@ created_at: "2025-06-07"
 ---
 
 
-## June 8 - 9
+## June 7 - 9
 
 I started noting down and reaserching about what is my project going to have and especcially what MCU to use. I decided that my metronome is going to have the features:
 - Knob/switch 1 - to adjust the BPM + power button
@@ -24,11 +24,18 @@ I started noting down and reaserching about what is my project going to have and
 <img width="503" alt="Screenshot 2025-06-08 at 12 41 48 PM" src="https://github.com/user-attachments/assets/e722692c-f6e8-4200-b323-1c638b9abbb8" />
 
 ## MCU (Microcontroller Unit)
-I looked for a MCU to use and it was clear for me to use a ESP32 due to it's audio capablitlites. I originally looked into the TinyPICO due to it having a charging capabilites, small form factor and a DAC output. Sadly, my friend said it was way to expensive as a MCU coming in as $35 USD (including shipping). The TinyPICO also requires me to add and external DAC output due to the DAC on the TinyPICO originally for speakers. I asked for help in the awesome community of the slack hackclub and many people helped me in finding a better and cheaper option than the TinyPICO and I they suggested the ESP32 C series Mini, and thats where I came across the ESP32 C6 Super Mini. 
+I looked for a MCU to use and it was clear for me to use a ESP32 due to it's audio capablitlites. I originally looked into the TinyPICO due to it having a charging capabilites, small form factor and a DAC output. Sadly, my friend said it was way to expensive as a MCU coming in as $35 USD (including shipping). The TinyPICO also requires me to add and external DAC output due to the DAC on the TinyPICO originally for speakers. I asked for help in the awesome community of the slack hackclub and many people helped me in finding a better and cheaper option than the TinyPICO and they suggested the ESP32 C series, and thats where I came across the Seeed Studio XIAO ESP32-S3 Plus. 
 
-The ESP32 C6 Super Mini includes, Battery pins for charging, uses USB C, 18 practical GPIOs to use, avalibility for OLED screen. I would also need ot add an external DAC and heakphone jack for the MCU but I was going to do that anyways.
+The Seeed Studio XIAO ESP32-S3 Plus includes, litium battery charging manaegment, uses USB C, 20 expanded GPIO's to use, effecient power management and I2C avalibility for OLED screen. I would also need to add an external DAC and heakphone jack for the MCU but I was going to do that anyways.
+
+https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32S3-Plus-p-6361.html?srsltid=AfmBOooKQnAGTpSrEHZqcqBNI1Rd_LhihN7JWmB5JLmD3Lf3hoWj0AXO
+
+## Headphone Jack
+This was a very simple desion due to a person on slack providing me information in how to search for a headphone jack (Samesky). I found the SJ1-3514N which was a great headphone jack with an internal switch for power effecincy. The jack has, 3.5mm audio standered, it uses a through hole mounting style (for stabibility) and its horizontal which creates a low profile for it. 
+
+https://www.sameskydevices.com/product/interconnect/connectors/audio-connectors/jacks/sj1-3514n
 
 ## OLED screen
-I wanted a decently sized screen due to the amount of information I wanted on it (BPM, battery indicator, preset indicator, volume indicator) I chose a 1.54 inch oled.
+I wanted a decently sized screen due to the amount of information I wanted on it (BPM, battery indicator, preset indicator, volume indicator) I chose a 2.42 inch display and a resoultion of 126x64 due to its space and detail. I also made sure that the screen connector was a I2C so it will be compatable with the MCU i chose
 
 
