@@ -75,9 +75,19 @@ Time spent: 6 hours
 
 # June 10
 
+## GitHub + Shop
 
+I fixed the formatting of the Journal for the porject so it is easier to read and understand. I also changed some of websites to source the parts. This is because of Mouser shipping is expensive to my country (New Zealand) but they allow free shipping if you spend over $50, so I tried to soucre as many items as possible from Mouser. I was able to source the DAC, AMP, Headphone Jack, MCU, Potentiometer and Rotary Encoder from Mouser and mabye more in the future. I've tried to source the buttons, switches and OLED screens from Mouser but there wasn't any good options that I liked and or was way to expensive. 
 
+https://nz.mouser.com/ProductDetail/Alps-Alpine/EC11E18244A5?qs=seHrhfPpLDydI9KuruJHhA%3D%3D
+https://nz.mouser.com/ProductDetail/Same-Sky/PTN091-H50115K1A?qs=IKkN%2F947nfAyOT2cVMxFFA%3D%3D
 
+<img width="481" alt="Screenshot 2025-06-11 at 8 13 15 PM" src="https://github.com/user-attachments/assets/46923e75-e0a7-4033-abb0-986c685fc835" />
+
+Time spent: 6 hours
+---
+
+# June 11
 
 
 
