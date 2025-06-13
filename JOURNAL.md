@@ -20,7 +20,7 @@ I decided that my metronome is going to have the features:
 - OLED screen
 - LEDs
 - Battery charging
-- 2000mAh battery
+- 3000mAh battery
 - Headphone jack
 - USB C
 
@@ -53,7 +53,7 @@ For my metronome I'm planning to mainly use a headphone jack meaning I should us
 https://nz.mouser.com/ProductDetail/Texas-Instruments/PCM5102APWR?qs=E2%2FxqS9xjzrfECkwEYoiyg%3D%3D
 https://nz.mouser.com/ProductDetail/Texas-Instruments/TPA6139A2PWR?qs=TeC8nwD7mVr7iydXyN4ieA%3D%3D\
 
-<img width="959" alt="Screenshot 2025-06-10 at 8 15 01 PM" src="https://github.com/user-attachments/assets/f2b52fd2-9d95-46e4-a279-3b37c79abe1b" />
+<img width="500" alt="Screenshot 2025-06-10 at 8 15 01 PM" src="https://github.com/user-attachments/assets/f2b52fd2-9d95-46e4-a279-3b37c79abe1b" />
 
 (PRICES IS IN NZD)
 
@@ -61,10 +61,9 @@ Time spent: 3 hours
 ---
 # June 9
 
-## OLED screen
+## OLED Screen
 I wanted a decently sized screen due to the amount of information I wanted on it (BPM, battery indicator, preset indicator, volume indicator) so I chose a 1.54 inch display and a resoultion of 126x64 due to its space and detail. I also made sure that the screen connector was a I2C so it will be compatable with the MCU i chose. I was orignially going to use the waveshare 1.54 OLED screen but after taking to my friend and [@Ryan Green](https://hackclub.slack.com/team/U090854913L), they both said that they were too expensive and that there where cheaper ones on aliexpress. I discovered many OLED screen that looked the exact same so I just chose the most cheapest one which meet my requirements. This took alot of time due to the amount of back and forwarth, going between waveshare and aliexpress.
 
-https://www.aliexpress.com/item/1005007522995297.html?spm=a2g0o.productlist.main.26.718c77e95YgPXH&algo_pvid=a7be4b24-26e1-413a-bb4c-be501f5b124d&algo_exp_id=a7be4b24-26e1-413a-bb4c-be501f5b124d-23&pdp_ext_f=%7B%22order%22%3A%2291%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21NZD%2112.52%215.95%21%21%2153.20%2125.27%21%402101c5a417495046110686580e928c%2112000041132196825%21sea%21NZ%210%21ABX&curPageLogUid=sUhAimMM6TY6&utparam-url=scene%3Asearch%7Cquery_from%3A#nav-description
 
 <img width="350" alt="Screenshot 2025-06-10 at 7 06 51 PM" src="https://github.com/user-attachments/assets/3b3e9a2c-786d-4192-be60-6c811610bc4b" />
 
@@ -90,6 +89,72 @@ Time spent: 6 hours
 
 # June 11
 
+## Buttons + Switchs
 
+I searched for the bottons for my project. I wanted buttons that were sleek and smooth while still being high quality. I search for a long time on Aliexpress for the right switches that met my expectations and I found a nice option. These buttons were exactly what I was looking for but it is quite expensive compared to others and due to the amount I needed (3). 
+I need a separte 'button' as a power button, so I wanted to use a switch for my power button. I looked for a large switch but most of the swtiches on Aliexpress was too small. Luckliy, I found a large switch which was perfect for my power switch.
+
+## Battery
+
+This was really hard for me due to me not really knowing where to buy it. I ended up having to source thr battery from Aliexpress which even tho I didn't really trsut, I didn't really have any other choice. I ended up choosing a 3000 mAh LiPo 3.7v battery from a random Aliexpress store (which I still don't trust). Hopefully I can change it later on but at this moment I'll keep it for now.
+
+<img width="400" alt="Screenshot 2025-06-12 at 8 27 15 PM" src="https://github.com/user-attachments/assets/abf72d59-bc73-4cc0-a893-d1900098b3c6" />
+<img width="400" alt="Screenshot 2025-06-12 at 8 27 22 PM" src="https://github.com/user-attachments/assets/a466a519-4182-4c1a-a32e-79200c7bf756" />
+<img width="400" alt="Screenshot 2025-06-12 at 8 27 30 PM" src="https://github.com/user-attachments/assets/e2e1f05f-a3f5-4013-a43c-ed77984b6682" />
+
+Time spent: 6 hours
+---
+# June 12
+
+## OLED Screen Revamp
+
+I was fed up with the difficulty of searching for a the correct connectors of a non descriptive, skectchy OLED display so I decided to change the OLED to a more expensive but way more eaiser and descriptive OLED screen which even includes a connector SO I DONT'T NEED TO WASTE TIME FIGURING IT OUT AGAIN. I decided to go with the Waveshare 1.54inch OLED Display Module. This has an extensive description while having a wiki to answer and help with any problems I encounter. 
+
+PS. [@Ryan Green](https://hackclub.slack.com/team/U090854913L) hasn't been online since around June 10th so i haven't gotten much help.
+
+https://www.waveshare.com/1.54inch-oled-module.htm?sku=25512
+
+## BOM Sheet
+
+I started and filled out a BOM (Bill of Materials) for all the parts I was going to buy, mainly to see and understand my budget an to organise my parts. This helped me understand where the money was going into and letted me look through where I found the products. 
+
+<img width="500" alt="Screenshot 2025-06-12 at 7 43 12 PM" src="https://github.com/user-attachments/assets/883afe7b-4d99-4595-88d7-1f6df11ef4a1" />
+
+<img width="1197" alt="Screenshot 2025-06-12 at 8 55 00 PM" src="https://github.com/user-attachments/assets/87918fa5-630a-43cb-a25c-f2d16f1a4efc" />
+
+Time spent: 6 hours
+---
+
+# June 13
+
+## Resistoers + Capasitors
+I stared the search for my resistors and capasitors for my pcb and project. Resistors and capasitors are really confusion for me because of all the specifications and terminology that are connected to them. After all my reserch and help from [@Ryan Green](https://hackclub.slack.com/team/U090854913L), I chose a resistors and capasitors for my project which was the most difficult part to source due to large range of different types of them and also me not really knowing what type to use. 
+
+https://nz.mouser.com/ProductDetail/YAGEO/CFR-12JT-52-10K?qs=uYSUDLr2H%2FLcN1orUM1YfA%3D%3D
+https://nz.mouser.com/ProductDetail/Vishay-BC-Components/K104K15X7RF5WH5?qs=sGAEpiMZZMvsSlwiRhF8qnONkpDJ9RVUxkyDki3dR58%3D
+https://nz.mouser.com/ProductDetail/Nichicon/UFW2A330MPD?qs=kArNe9LFxXnyndxqtATAYA%3D%3D
+
+## DigiKey
+Before I used Mouser as my source for most of my parts but after talking with my friend I chose to use DigiKey as my part sourcing. This is because of the cheaper prices and appearntly quicker shipping. I searched for all of the parts on the DigiKey that was previously on Mouser and surprisingly all of them were on there, and so I can easily transition from one to the other. 
+
+https://www.digikey.co.nz/en/products/detail/texas-instruments/PCM5102APWR/3727211?s=N4IgTCBcDaIAoGECyBWAjABjAQTgdQCUQBdAXyA
+https://www.digikey.co.nz/en/products/detail/texas-instruments/tpa6139a2pwr/2552043
+https://www.digikey.co.nz/en/products/detail/same-sky-formerly-cui-devices/sj1-3514n/738685
+https://www.digikey.co.nz/en/products/detail/seeed-technology-co-ltd/102010671/26553873
+https://www.digikey.co.nz/en/products/detail/same-sky-formerly-cui-devices/ptn091-h50115k1a/24767334
+https://www.digikey.co.nz/en/products/detail/alps-alpine/ec11e18244a5/21721665
+
+## LED
+For the LED's I wasn't really sure excatly what I wanted but I chose to use the LED's used on the HackPad (SK6812 NanoPixel). I knew I wanted and RGB LED but I wasn't sure if I wanted an RGB W LED, but when looking at the options, there wasn't many, so I just stuck with the RGB LED. Since I wanted to use atleast 12+ LED, I decided to get 20 of them (2 in increments of 10).
+
+https://www.digikey.co.nz/en/products/detail/adafruit-industries-llc/4691/13170955
+
+<img width="500" alt="Screenshot 2025-06-14 at 12 51 58 AM" src="https://github.com/user-attachments/assets/b8f39c6f-0481-4a59-9c79-43fa75e38b54" />
+<img width="500" alt="Screenshot 2025-06-14 at 12 52 01 AM" src="https://github.com/user-attachments/assets/ef464659-53cd-4768-afed-f57e208cef54" />
+<img width="500" alt="Screenshot 2025-06-14 at 12 50 50 AM" src="https://github.com/user-attachments/assets/71c9860f-f465-4735-ad4a-d0c25c4ac136" />
+<img width="500" alt="Screenshot 2025-06-14 at 12 41 28 AM" src="https://github.com/user-attachments/assets/416fbc80-ee42-45fc-98c8-8648f5cb7c52" />
+
+Time spent: 8 hours
+---
 
 
