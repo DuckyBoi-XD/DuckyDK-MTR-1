@@ -41,12 +41,12 @@ Time spent: 12 hours
 ---
 # June 8
 
-## Headphone Jack
+### Headphone Jack
 This was a very simple desion due to [@Ryan Green](https://hackclub.slack.com/team/U090854913L) on slack providing me information in how to search for a headphone jack (Samesky). I found the SJ1-3514N which was a great headphone jack with an internal switch for power effecincy. The jack has, 3.5mm audio standered, it uses a through hole mounting style (for stabibility) and its horizontal which creates a low profile for it. Due to later on information I'm planning to buy it on Mouser but I'll get into it later.
 
 https://nz.mouser.com/ProductDetail/Same-Sky/SJ1-3514N?qs=WyjlAZoYn53nY7Y2NKZXvw%3D%3D&utm_source=OEMSecrets&utm_medium=aggregator&utm_campaign=SJ1-3514N&utm_term=SJ1-3514N&utm_content=Same+Sky
 
-## DAC (DIgital to Anoloug Converter) + AMP (Amplifier)
+### DAC (DIgital to Anoloug Converter) + AMP (Amplifier)
 
 For my metronome I'm planning to mainly use a headphone jack meaning I should use a AMP for the output sound and I needed a DAC to make it sound better and louder. Again this was a simple dicision because of the help of [@Ryan Green](https://hackclub.slack.com/team/U090854913L) giving me advice on which ones to use. 
 
@@ -61,7 +61,7 @@ Time spent: 3 hours
 ---
 # June 9
 
-## OLED Screen
+### OLED Screen
 I wanted a decently sized screen due to the amount of information I wanted on it (BPM, battery indicator, preset indicator, volume indicator) so I chose a 1.54 inch display and a resoultion of 126x64 due to its space and detail. I also made sure that the screen connector was a I2C so it will be compatable with the MCU i chose. I was orignially going to use the waveshare 1.54 OLED screen but after taking to my friend and [@Ryan Green](https://hackclub.slack.com/team/U090854913L), they both said that they were too expensive and that there where cheaper ones on aliexpress. I discovered many OLED screen that looked the exact same so I just chose the most cheapest one which meet my requirements. This took alot of time due to the amount of back and forwarth, going between waveshare and aliexpress.
 
 
@@ -74,7 +74,7 @@ Time spent: 6 hours
 
 # June 10
 
-## GitHub + Shop
+### GitHub + Shop
 
 I fixed the formatting of the Journal for the porject so it is easier to read and understand. I also changed some of websites to source the parts. This is because of Mouser shipping is expensive to my country (New Zealand) but they allow free shipping if you spend over $50, so I tried to soucre as many items as possible from Mouser. I was able to source the DAC, AMP, Headphone Jack, MCU, Potentiometer and Rotary Encoder from Mouser and mabye more in the future. I've tried to source the buttons, switches and OLED screens from Mouser but there wasn't any good options that I liked and or was way to expensive. 
 
@@ -89,12 +89,12 @@ Time spent: 6 hours
 
 # June 11
 
-## Buttons + Switchs
+### Buttons + Switchs
 
 I searched for the bottons for my project. I wanted buttons that were sleek and smooth while still being high quality. I search for a long time on Aliexpress for the right switches that met my expectations and I found a nice option. These buttons were exactly what I was looking for but it is quite expensive compared to others and due to the amount I needed (3). 
 I need a separte 'button' as a power button, so I wanted to use a switch for my power button. I looked for a large switch but most of the swtiches on Aliexpress was too small. Luckliy, I found a large switch which was perfect for my power switch.
 
-## Battery
+### Battery
 
 This was really hard for me due to me not really knowing where to buy it. I ended up having to source thr battery from Aliexpress which even tho I didn't really trsut, I didn't really have any other choice. I ended up choosing a 3000 mAh LiPo 3.7v battery from a random Aliexpress store (which I still don't trust). Hopefully I can change it later on but at this moment I'll keep it for now.
 
@@ -106,7 +106,7 @@ Time spent: 6 hours
 ---
 # June 12
 
-## OLED Screen Revamp
+### OLED Screen Revamp
 
 I was fed up with the difficulty of searching for a the correct connectors of a non descriptive, skectchy OLED display so I decided to change the OLED to a more expensive but way more eaiser and descriptive OLED screen which even includes a connector SO I DONT'T NEED TO WASTE TIME FIGURING IT OUT AGAIN. I decided to go with the Waveshare 1.54inch OLED Display Module. This has an extensive description while having a wiki to answer and help with any problems I encounter. 
 
@@ -114,7 +114,7 @@ PS. [@Ryan Green](https://hackclub.slack.com/team/U090854913L) hasn't been onlin
 
 https://www.waveshare.com/1.54inch-oled-module.htm?sku=25512
 
-## BOM Sheet
+### BOM Sheet
 
 I started and filled out a BOM (Bill of Materials) for all the parts I was going to buy, mainly to see and understand my budget an to organise my parts. This helped me understand where the money was going into and letted me look through where I found the products. 
 
@@ -127,14 +127,14 @@ Time spent: 6 hours
 
 # June 13
 
-## Resistoers + Capasitors
+### Resistoers + Capasitors
 I stared the search for my resistors and capasitors for my pcb and project. Resistors and capasitors are really confusion for me because of all the specifications and terminology that are connected to them. After all my reserch and help from [@Ryan Green](https://hackclub.slack.com/team/U090854913L), I chose a resistors and capasitors for my project which was the most difficult part to source due to large range of different types of them and also me not really knowing what type to use. 
 
 https://nz.mouser.com/ProductDetail/YAGEO/CFR-12JT-52-10K?qs=uYSUDLr2H%2FLcN1orUM1YfA%3D%3D
 https://nz.mouser.com/ProductDetail/Vishay-BC-Components/K104K15X7RF5WH5?qs=sGAEpiMZZMvsSlwiRhF8qnONkpDJ9RVUxkyDki3dR58%3D
 https://nz.mouser.com/ProductDetail/Nichicon/UFW2A330MPD?qs=kArNe9LFxXnyndxqtATAYA%3D%3D
 
-## DigiKey
+### DigiKey
 Before I used Mouser as my source for most of my parts but after talking with my friend I chose to use DigiKey as my part sourcing. This is because of the cheaper prices and appearntly quicker shipping. I searched for all of the parts on the DigiKey that was previously on Mouser and surprisingly all of them were on there, and so I can easily transition from one to the other. 
 
 https://www.digikey.co.nz/en/products/detail/texas-instruments/PCM5102APWR/3727211?s=N4IgTCBcDaIAoGECyBWAjABjAQTgdQCUQBdAXyA
@@ -144,7 +144,7 @@ https://www.digikey.co.nz/en/products/detail/seeed-technology-co-ltd/102010671/2
 https://www.digikey.co.nz/en/products/detail/same-sky-formerly-cui-devices/ptn091-h50115k1a/24767334
 https://www.digikey.co.nz/en/products/detail/alps-alpine/ec11e18244a5/21721665
 
-## LED
+### LED
 For the LED's I wasn't really sure excatly what I wanted but I chose to use the LED's used on the HackPad (SK6812 NanoPixel). I knew I wanted and RGB LED but I wasn't sure if I wanted an RGB W LED, but when looking at the options, there wasn't many, so I just stuck with the RGB LED. Since I wanted to use atleast 12+ LED, I decided to get 20 of them (2 in increments of 10).
 
 https://www.digikey.co.nz/en/products/detail/adafruit-industries-llc/4691/13170955
@@ -156,5 +156,28 @@ https://www.digikey.co.nz/en/products/detail/adafruit-industries-llc/4691/131709
 
 Time spent: 8 hours
 ---
+
+# June 14
+
+### Capacitors
+I went though the capacitors I chose and I realised that I didn't have enough types of capacitors for my parts. I looked through and I found a bunch of different types of capacitors that I could use and with the right application of said capacitors. I also made sure that the capacitors were alright with my parts, but through this I also rethough of my desicions of my battery from Aliexpress and I find another option but I wasn't sure.
+
+https://www.digikey.co.nz/en/products/detail/kemet/C320C104K5R5TA7305/12701231
+https://www.digikey.co.nz/en/products/detail/cornell-dubilier-knowles/336CKE050M/6141081
+
+
+### BOM Sheet Revemp
+I updated my BOM sheet to have the updated location of DigiKey and my OLED screen theat I previously changed. I also fixed the mix up with the different Aliexpress link from when I acceidently mixed them up. At this point, looking at the price, I wonder if the reviews would accept this with how expensive it is.
+
+### Thoughts 
+Today I decided I should have a thoughts section where I give the thoughts about what I've done and just curious things I'm thinking off. Today's sone is 'WHY DOES IT TAKE SO LONG TO SOURCE PARTS'.
+
+<img width="400" alt="Screenshot 2025-06-14 at 6 54 36 PM" src="https://github.com/user-attachments/assets/f4711128-e0d0-42de-b594-482553d73d94" />
+<img width="400" alt="Screenshot 2025-06-14 at 6 54 43 PM" src="https://github.com/user-attachments/assets/bbc23ff9-bdf7-41dd-99ab-cd11a27ecfca" />
+<img width="800" alt="Screenshot 2025-06-14 at 7 17 53 PM" src="https://github.com/user-attachments/assets/637b1b63-d4ba-4ca7-b3cc-9424705c91dd" />
+
+Time spent: 7 hours
+---
+
 
 
