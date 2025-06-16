@@ -198,12 +198,16 @@ https://www.ultralibrarian.com/
 
 ### Schematics
 
+### Files
 For the schematics I imported all the files from the parts and setted up the library. This prosses too a bit due to me forgetting how to do it and useing trial and error to figure it out. Once i finished with importing all the schematic and footprint files I start work on the schematics part of Kicad where I wired almosty every component to its designeted spot. 
 
+### OLED Screen
 The OLED screen was really simple to wire due to it only including 4 pins, 2 of them just being gound and power pins. The DAC and AMP is where it got tricky. I started with connecting all the power and simple pins like ground and power pins. 
 
+### LED
 Another easy wiring job was the LEDs. The LEDs were simple due to me understanding how the LED's work and how they should be labled from previous projects. I placed the LED pin on a random GPIO (which I later found out was a bad idea) a move on to the next component.
 
+### DAC + AMP
 I focused on one part at each time, this being the DAC. I looked into the data sheet of the DAC and found the description of each pin and connected some of the obvious ones. I did the same to the AMP but when looking at the pins I reallised that there wasn't a positive input for the audio. This really stumped me so I want to looked into the data sheet of the AMP and found that the 14 pin (the one I was using) didn't even include and positive audio inputs. I asked [@Ryan Green](https://hackclub.slack.com/team/U090854913L) abount it since he helped me picj out the AMP and he was surprised about the AMP not including the positive inputs. At this point I decided to find a different AMP, this time being a 16 pin header.
 
 https://www.ti.com/lit/ds/symlink/pcm5102a.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1750061065007&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fpcm5102a
@@ -217,3 +221,14 @@ https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2
 ### Thought
 
 I have to know find a new AMP that has 16 pin or atleast has a positive input pin unlike the one I was using. I figured out how to conect the components to the pcb that are on the case, yay. Still trying to figure out what all the pins mean.
+
+Time spent: 8 hours
+---
+
+# June 16
+
+### Schematics
+
+### DAC
+I worked on the DAC pin to research and make sure it its place on the right places. This prosses was very surprising due to the amount of pin going to the ground and power. There was a lot of confusion about capacitors needed for the ground pin but I decided to leave it out for another day to figure out. 
+
