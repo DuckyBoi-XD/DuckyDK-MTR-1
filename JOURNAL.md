@@ -246,6 +246,30 @@ Time spent: 6
 
 # June 17
 
+### AMP
+I did my research on the new AMP and I found a great choice after quickly adding the specs I wanted. I cohse the MAX9722AEUE+ due to it being a 16 pin (accually with a +input left and right), pin extruding outwards for easy soldering access and compatablility with the potentiometer I chose. With this I got the files of the shcematic and footprint and imported it into the Kicad. 
+
+https://www.digikey.co.nz/en/products/detail/analog-devices-inc-maxim-integrated/MAX9722AEUE/1495288
+
+<img width="1221" alt="Screenshot 2025-06-18 at 4 19 16 PM" src="https://github.com/user-attachments/assets/ff926d70-440e-4bd7-9cd6-117f3281782d" />
+
+### Schematics
+Today I did a little bit of research on the DAC and AMP pins and I connected only a few of them after getting tired.
+
+<img width="326" alt="Screenshot 2025-06-18 at 4 18 37 PM" src="https://github.com/user-attachments/assets/52a7b6bf-c556-4400-9dcd-dba3f94455e7" />
+
+### Thoughts 
+Techanacally at around 11pm I sent out a message on slack asking help for the wiring (because I knew it was terrible) and I did get a responce but it was at midnight so I'm going to refer it as tommorows work.
+
+Time spent: 3 hours
+---
+
+June 18
+
+### Schematics 
+
+### DAC
+
 
 
 
