@@ -205,7 +205,7 @@ For the schematics, I imported all the files from the parts and set up the libra
 The OLED screen was really simple to wire due to it only including 4 pins, 2 of them just being ground and power pins. The DAC and AMP are where it got tricky. I started by connecting all the power and simple pins, like ground and power pins. 
 
 ### LED
-Another easy wiring job was the LEDs. The LEDs were simple due to my understanding of how the LEDs work and how they should be labelled from previous projects. I placed the LED pin on a random GPIO (which I later found out was a bad idea) a moved on to the next component.
+Another easy wiring job was the LEDs. The LEDs were simple due to my understanding of how the LEDs work and how they should be labelled from previous projects. I placed the LED pin on a random GPIO (which I later found out was a bad idea) and moved on to the next component.
 
 ### DAC + AMP
 I focused on one part at a time, this being the DAC. I looked into the data sheet of the DAC and found the description of each pin and connected some of the obvious ones. I did the same to the AMP, but when looking at the pins, I realised that there wasn't a positive input for the audio. This really stumped me, so I wanted to look into the data sheet of the AMP and found that the 14-pin (the one I was using) didn't even include any positive audio inputs. I asked [@Ryan Green](https://hackclub.slack.com/team/U090854913L) about it since he helped me pick out the AMP, and he was surprised about the AMP not including the positive inputs. At this point, I decided to find a different AMP, this time being a 16-pin header.
@@ -247,31 +247,49 @@ Time spent: 6
 # June 17
 
 ### AMP
-I did my research on the new AMP and I found a great choice after quickly adding the specs I wanted. I cohse the MAX9722AEUE+ due to it being a 16 pin (accually with a +input left and right), pin extruding outwards for easy soldering access and compatablility with the potentiometer I chose. With this I got the files of the shcematic and footprint and imported it into the Kicad. 
+I did my research on the new AMP, and I found a great choice after quickly adding the specs I wanted. I cohse the MAX9722AEUE+ due to it being a 16 pin (accually with a +input left and right), pin extruding outwards for easy soldering access and compatablility with the potentiometer I chose. With this, I got the files of the shcematic and footprint and imported it into the Kicad. 
 
 https://www.digikey.co.nz/en/products/detail/analog-devices-inc-maxim-integrated/MAX9722AEUE/1495288
 
 <img width="1221" alt="Screenshot 2025-06-18 at 4 19 16 PM" src="https://github.com/user-attachments/assets/ff926d70-440e-4bd7-9cd6-117f3281782d" />
 
 ### Schematics
-Today I did a little bit of research on the DAC and AMP pins and I connected only a few of them after getting tired.
+Today, I did a little bit of research on the DAC and AMP pins, and I connected only a few of them after getting tired.
 
 <img width="326" alt="Screenshot 2025-06-18 at 4 18 37 PM" src="https://github.com/user-attachments/assets/52a7b6bf-c556-4400-9dcd-dba3f94455e7" />
 
 ### Thoughts 
-Techanacally at around 11pm I sent out a message on slack asking help for the wiring (because I knew it was terrible) and I did get a responce but it was at midnight so I'm going to refer it as tommorows work.
+Technically, at around 11 pm I sent out a message on Slack asking for help with the wiring (because I knew it was terrible) and I did get a response, but it was at midnight, so I'm going to refer it as tommorows work.
 
 Time spent: 3 hours
 ---
 
-June 18
+June 20
 
 ### Schematics 
 
-### DAC
+### DAC 
+I found out from a person on Slack that the data sheet I had with the description of the part I was using had a part where it showed the schematics of the wiring of most componets. This increased my productivity by 7-fold. The DAC was way easier to wire due to the design on the data sheet. There were a few things I had to change with the potentiometer being included as an analog device, but later on, I configured it with the potentiometer.
 
+<img width="600" alt="Screenshot 2025-06-21 at 12 13 24 AM" src="https://github.com/user-attachments/assets/fea33609-dd31-4320-9f45-19b3ad5383ad" />
+<img width="600" alt="Screenshot 2025-06-21 at 12 13 42 AM" src="https://github.com/user-attachments/assets/b462c1f7-2d82-4954-b57a-2e6f55ac09ac" />
 
+### AMP
+With the newfound knowledge of the schematic diagram on the data sheet, I was able to quickly finish the AMP wiring. The AMP diagram also included the schematics with a headphone jack, which helped a lot since I was using a headphone jack. There was also a lot of confusion with earth and ground pins, but after researching, I just used ground pins as ever pin. 
 
+<img width="472" alt="Screenshot 2025-06-21 at 12 18 14 AM" src="https://github.com/user-attachments/assets/b201d8d4-40ee-442b-84ed-841267b6ce6e" />
+<img width="300" alt="Screenshot 2025-06-21 at 12 25 20 AM" src="https://github.com/user-attachments/assets/0196e24c-16c1-4dc4-92e7-9a22b202297a" />
+
+### Rotary Encoder + OLED screen + Headphone Jack
+This is just a combination of a bunch of parts because they were really simple to do. The Rotary enocder was simple, I just copyed what I did for my Hackpad. The OLED screen was a bit different when I think I needed a resistor and the data pins to connect them to the power pin, but I'm not really sure. The Headphone jack was also self-explanatory, with the AMP having clear directions on how to use it. The only difficulty with the headphone jack was making sure the pins were the correct ones, but this was simple to figure out by double-checking the data sheet of the headphone jack.
+
+<img width="300" alt="Screenshot 2025-06-21 at 12 36 11 AM" src="https://github.com/user-attachments/assets/73e11acf-16a8-49bd-88ae-ac2d33aaa009" />
+
+### Thoughts
+This was the first day I did work outside my house/city. At the moment I am on a short holiday relaxing the my family, but I was still able to get some awesome work done. 
+
+Time spent: 10 hours
+---
 
 
 
