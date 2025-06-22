@@ -310,6 +310,8 @@ For each component, I had to assign them a footprint. This was again very simple
 
 <img width="300" alt="Screenshot 2025-06-22 at 4 04 50 PM" src="https://github.com/user-attachments/assets/e856782e-2466-4dbe-ab84-5ea604593c10" />
 
+### MCU (Micro-Controller Unit)
+For the MCU I slowly updated the schematics for it as I wired each component. This ended up building the MCU wiring looking like this.
 <img width="751" alt="Screenshot 2025-06-22 at 4 05 29 PM" src="https://github.com/user-attachments/assets/1608b20a-b5c4-4770-a2ce-e8ff26bdba80" />
 
 
