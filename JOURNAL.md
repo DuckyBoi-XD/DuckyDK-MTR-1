@@ -286,7 +286,7 @@ This is just a combination of a bunch of parts because they were really simple t
 <img width="300" alt="Screenshot 2025-06-21 at 12 36 11 AM" src="https://github.com/user-attachments/assets/73e11acf-16a8-49bd-88ae-ac2d33aaa009" />
 
 ### Thoughts
-This was the first day I did work outside my house/city. At the moment I am on a short holiday relaxing the my family, but I was still able to get some awesome work done. 
+This was the first day I did work outside my house/city. At the moment, I am on a short holiday, relaxing with my family, but I was still able to get some awesome work done. 
 
 Time spent: 10 hours
 ---
@@ -296,16 +296,25 @@ Time spent: 10 hours
 ### Schematics
 
 ### Potentiometer
-As said with the DAC I was going to add the potentiometer directly to the DAC. This would make the conection better as well as more responsive and stable. Sadly if there is a problem with it there are minimal solutions for this. I connected the potentiometer between both the outputs for the DAC and the Input of the AMP. Note, I changed the potentiometer to be a stereo potentiometer so when the output of the DAC reaches it, the potentiometer won't change it to be a mono input for the AMP.
+As said with the DAC, I was going to add the potentiometer directly to the DAC. This would make the connection better as well as more responsive and stable. Sadly, if there is a problem with it, there are minimal solutions for this. I connected the potentiometer between both the outputs for the DAC and the Input of the AMP. Note, I changed the potentiometer to be a stereo potentiometer, so when the output of the DAC reaches it, the potentiometer won't change it to be a mono input for the AMP.
+
+<img width="300" alt="Screenshot 2025-06-22 at 3 54 01 PM" src="https://github.com/user-attachments/assets/26167968-9c22-4b7b-b0fe-566723d6454a" />
 
 ### Switches
-I am use 3 buttons and 1 switch for my metronome. For the 3 butons I used SW_PUSH since the buttons were momentary. I use a SPST for the switch since the switch is a SPST or totgle switch. This was very simple due to me doing the hackpad before this and I understood how to use switches and buttons. 
+I use 3 buttons and 1 switch for my metronome. For the 3 buttons, I used SW_PUSH since the buttons were momentary. I use a SPST for the switch since the switch is a SPST or toggle switch. This was very simple due to me doing the hackpad before this, and I understood how to use switches and buttons. 
+
+<img width="300" alt="Screenshot 2025-06-22 at 4 04 21 PM" src="https://github.com/user-attachments/assets/38676dc3-fed5-4121-9316-2f06e319d057" />
 
 ### Footprints
-For each component I had to assaign them a footprint. This was again very simple due to the schematcis including a files of the footprints which made it very easy. The hardest part was to figure out the footprints of the connectors for the components on the case. This was solved by finding out the variables of the labels for the footprints.
+For each component, I had to assign them a footprint. This was again very simple due to the schematics including a file of the footprints, which made it very easy. The hardest part was to figure out the footprints of the connectors for the components on the case. This was solved by finding out the variables of the labels for the footprints.
+
+<img width="300" alt="Screenshot 2025-06-22 at 4 04 50 PM" src="https://github.com/user-attachments/assets/e856782e-2466-4dbe-ab84-5ea604593c10" />
+
+<img width="751" alt="Screenshot 2025-06-22 at 4 05 29 PM" src="https://github.com/user-attachments/assets/1608b20a-b5c4-4770-a2ce-e8ff26bdba80" />
+
 
 ### Thoughts
-I've now down the schematics parts of the project and I am now moving on to the PCB editor. I sent the schematics to the others and to be honest wasn't much help by they said it looked good. 
+I've now down the schematics parts of the project and I am now moving on to the PCB editor. I sent the schematics to the others, and to be honest wasn't much help by they said it looked good. 
 
 Time spent: 9 hours
 ---
