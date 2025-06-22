@@ -303,3 +303,11 @@ I am use 3 buttons and 1 switch for my metronome. For the 3 butons I used SW_PUS
 
 ### Footprints
 For each component I had to assaign them a footprint. This was again very simple due to the schematcis including a files of the footprints which made it very easy. The hardest part was to figure out the footprints of the connectors for the components on the case. This was solved by finding out the variables of the labels for the footprints.
+
+### Thoughts
+I've now down the schematics parts of the project and I am now moving on to the PCB editor. I sent the schematics to the others and to be honest wasn't much help by they said it looked good. 
+
+Time spent: 9 hours
+---
+
+
