@@ -291,5 +291,15 @@ This was the first day I did work outside my house/city. At the moment I am on a
 Time spent: 10 hours
 ---
 
+# June 21
 
+### Schematics
 
+### Potentiometer
+As said with the DAC I was going to add the potentiometer directly to the DAC. This would make the conection better as well as more responsive and stable. Sadly if there is a problem with it there are minimal solutions for this. I connected the potentiometer between both the outputs for the DAC and the Input of the AMP. Note, I changed the potentiometer to be a stereo potentiometer so when the output of the DAC reaches it, the potentiometer won't change it to be a mono input for the AMP.
+
+### Switches
+I am use 3 buttons and 1 switch for my metronome. For the 3 butons I used SW_PUSH since the buttons were momentary. I use a SPST for the switch since the switch is a SPST or totgle switch. This was very simple due to me doing the hackpad before this and I understood how to use switches and buttons. 
+
+### Footprints
+For each component I had to assaign them a footprint. This was again very simple due to the schematcis including a files of the footprints which made it very easy. The hardest part was to figure out the footprints of the connectors for the components on the case. This was solved by finding out the variables of the labels for the footprints.
