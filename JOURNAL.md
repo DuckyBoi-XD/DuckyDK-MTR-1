@@ -11,7 +11,7 @@ I started noting down and researching what components my project will need befor
 
 I decided that my metronome is going to have the following features:
 
-- Rotary Encoder + switch 1 - to adjust the BPM + Time signiture adjuster
+- Rotary Encoder + switch 1 - to adjust the BPM + Time signature adjuster
 - Potentiometer - to adjust volume
 - Switch 1 - Power Button
 - Switch 2 - Start/Stop
@@ -247,7 +247,7 @@ Time spent: 6
 # June 17
 
 ### AMP
-I did my research on the new AMP, and I found a great choice after quickly adding the specs I wanted. I cohse the MAX9722AEUE+ due to it being a 16 pin (accually with a +input left and right), pin extruding outwards for easy soldering access and compatablility with the potentiometer I chose. With this, I got the files of the shcematic and footprint and imported it into the Kicad. 
+I did my research on the new AMP, and I found a great choice after quickly adding the specs I wanted. I chose the MAX9722AEUE+ due to it being a 16 pin (accually with a +input left and right), pin extruding outwards for easy soldering access and compatibility with the potentiometer I chose. With this, I got the files of the schematic and footprint and imported it into the Kicad. 
 
 https://www.digikey.co.nz/en/products/detail/analog-devices-inc-maxim-integrated/MAX9722AEUE/1495288
 
@@ -259,7 +259,7 @@ Today, I did a little bit of research on the DAC and AMP pins, and I connected o
 <img width="326" alt="Screenshot 2025-06-18 at 4 18 37 PM" src="https://github.com/user-attachments/assets/52a7b6bf-c556-4400-9dcd-dba3f94455e7" />
 
 ### Thoughts 
-Technically, at around 11 pm I sent out a message on Slack asking for help with the wiring (because I knew it was terrible) and I did get a response, but it was at midnight, so I'm going to refer it as tommorows work.
+Technically, at around 11 pm I sent out a message on Slack asking for help with the wiring (because I knew it was terrible) and I did get a response, but it was at midnight, so I'm going to refer it as tomorrows work.
 
 Time spent: 3 hours
 ---
@@ -269,7 +269,7 @@ June 20
 ### Schematics 
 
 ### DAC 
-I found out from a person on Slack that the data sheet I had with the description of the part I was using had a part where it showed the schematics of the wiring of most componets. This increased my productivity by 7-fold. The DAC was way easier to wire due to the design on the data sheet. There were a few things I had to change with the potentiometer being included as an analog device, but later on, I configured it with the potentiometer.
+I found out from a person on Slack that the data sheet I had with the description of the part I was using had a part where it showed the schematics of the wiring of most components. This increased my productivity by 7-fold. The DAC was way easier to wire due to the design on the data sheet. There were a few things I had to change with the potentiometer being included as an analog device, but later on, I configured it with the potentiometer.
 
 <img width="600" alt="Screenshot 2025-06-21 at 12 13 24 AM" src="https://github.com/user-attachments/assets/fea33609-dd31-4320-9f45-19b3ad5383ad" />
 <img width="600" alt="Screenshot 2025-06-21 at 12 13 42 AM" src="https://github.com/user-attachments/assets/b462c1f7-2d82-4954-b57a-2e6f55ac09ac" />
@@ -281,7 +281,7 @@ With the newfound knowledge of the schematic diagram on the data sheet, I was ab
 <img width="300" alt="Screenshot 2025-06-21 at 12 25 20 AM" src="https://github.com/user-attachments/assets/0196e24c-16c1-4dc4-92e7-9a22b202297a" />
 
 ### Rotary Encoder + OLED screen + Headphone Jack
-This is just a combination of a bunch of parts because they were really simple to do. The Rotary enocder was simple, I just copyed what I did for my Hackpad. The OLED screen was a bit different when I think I needed a resistor and the data pins to connect them to the power pin, but I'm not really sure. The Headphone jack was also self-explanatory, with the AMP having clear directions on how to use it. The only difficulty with the headphone jack was making sure the pins were the correct ones, but this was simple to figure out by double-checking the data sheet of the headphone jack.
+This is just a combination of a bunch of parts because they were really simple to do. The Rotary encoder was simple, I just copied what I did for my Hackpad. The OLED screen was a bit different when I think I needed a resistor and the data pins to connect them to the power pin, but I'm not really sure. The Headphone jack was also self-explanatory, with the AMP having clear directions on how to use it. The only difficulty with the headphone jack was making sure the pins were the correct ones, but this was simple to figure out by double-checking the data sheet of the headphone jack.
 
 <img width="300" alt="Screenshot 2025-06-21 at 12 36 11 AM" src="https://github.com/user-attachments/assets/73e11acf-16a8-49bd-88ae-ac2d33aaa009" />
 
@@ -301,7 +301,7 @@ As said with the DAC, I was going to add the potentiometer directly to the DAC. 
 <img width="300" alt="Screenshot 2025-06-22 at 3 54 01 PM" src="https://github.com/user-attachments/assets/26167968-9c22-4b7b-b0fe-566723d6454a" />
 
 ### Switches
-I use 3 buttons and 1 switch for my metronome. For the 3 buttons, I used SW_PUSH since the buttons were momentary. I use a SPST for the switch since the switch is a SPST or toggle switch. This was very simple due to me doing the hackpad before this, and I understood how to use switches and buttons. 
+I use 3 buttons and 1 switch for my metronome. For the 3 buttons, I used SW_PUSH since the buttons were momentary. I use a SPST for the switch since the switch is a SPST or toggle switch. This was very simple due to me doing the Hackpad before this, and I understood how to use switches and buttons. 
 
 <img width="300" alt="Screenshot 2025-06-22 at 4 04 21 PM" src="https://github.com/user-attachments/assets/38676dc3-fed5-4121-9316-2f06e319d057" />
 
@@ -314,11 +314,39 @@ For each component, I had to assign them a footprint. This was again very simple
 For the MCU I slowly updated the schematics for it as I wired each component. This ended up building the MCU wiring looking like this.
 <img width="751" alt="Screenshot 2025-06-22 at 4 05 29 PM" src="https://github.com/user-attachments/assets/1608b20a-b5c4-4770-a2ce-e8ff26bdba80" />
 
-
 ### Thoughts
 I've now down the schematics parts of the project and I am now moving on to the PCB editor. I sent the schematics to the others, and to be honest wasn't much help by they said it looked good. 
 
 Time spent: 9 hours
 ---
 
+# June 22
+
+### BOM
+I had to update the BOM because i added a bunch of different capacitors and resistors, as well as change the potentiometer. This is to track the amount everything is costing and because to track what component I'm using for my project. Note, shipping and aliexpress prices might be wrong due to it changing a lot and shipping is confusing at the moment.
+
+## BOM Updates
+
+### Capacitors
+For the project I'm using ceramic capacitors with, 0.1 uF, 1 uF, 2.2 uF 10 uF and electrolytic capacitors with 100 uF. I found all these capacitors on Digikey and chose them due to the schematic diagram from each component.
+
+### Resistors
+I uses only one type of resistor, that being a 470 ohms capacitor. This is due to the data sheet recommending it for the component. 
+
+### AMP
+I found out midway from doing my schematics that the recommended AMP from [@Ryan Green](https://hackclub.slack.com/team/U090854913L) didn't have a +INPUT pin for both left and right channel. This was solved by finding another AMP which I updated in the BOM
+
+### PCB Editor
+After I finished the schematics for the metronome I moved on the the PCB layout. The would be how each component would connect in real life and what the PCB would actually look like. This process made me rethink what the metronome device would actually look like. Before I had a image of what it would look ike but after seeing the size of my components, I realised that it wouldn't actually fit in my tiny form factor that I was thinking of having for my project. This caused me to sit down and rethink how I was going to position my components to make sure it looks nice.
+
+### OLED Screen
+Through my time rethinking about the looks of the PCB and project I realised that my OLED screen was way too big (well not way too big but just a bit to big). This made me go back into researching OLED screens and thats where I found on on Aliexpress which was 1.3 inches and looked very nice in my opinion. 
+
+### Thoughts
+For today and a bit of yesterday's journal I used a code server for the journeying due to the SOM (summer of making) and me requiring to log hours which is why I'm doing it in a code server so it can track the hours. I'm unsure if it works on the Github site but better safe than sorry (or whatever the saying is ). It is also going to be a struggle with importing screenshots of my project but I'm still figuring it out. 
+
+I am also wondering how I am able to install the battery. Installing the battery requires connecting it to the +BAT and -BAT pin on the MCU. The problem is that the MCU will be on the pcb it would be cover the pins since the said pins are on back side. 
+
+Time spent: 12 hours 
+---
 
