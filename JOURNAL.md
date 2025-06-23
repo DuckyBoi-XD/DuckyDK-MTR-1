@@ -323,29 +323,39 @@ Time spent: 9 hours
 # June 22
 
 ### BOM
-I had to update the BOM because i added a bunch of different capacitors and resistors, as well as change the potentiometer. This is to track the amount everything is costing and because to track what component I'm using for my project. Note, shipping and aliexpress prices might be wrong due to it changing a lot and shipping is confusing at the moment.
+I had to update the BOM because I added a bunch of different capacitors and resistors, as well as change the potentiometer. This is to track the amount everything is costing and because to track what component I'm using for my project. Note, shipping and aliexpress prices might be wrong due to it changing a lot, and shipping is confusing at the moment.
+
+<img width="500" alt="Screenshot 2025-06-23 at 4 15 10 PM" src="https://github.com/user-attachments/assets/cbb4e3b5-a4d3-4c42-9055-ae181f8b00d5" />
 
 ## BOM Updates
 
 ### Capacitors
-For the project I'm using ceramic capacitors with, 0.1 uF, 1 uF, 2.2 uF 10 uF and electrolytic capacitors with 100 uF. I found all these capacitors on Digikey and chose them due to the schematic diagram from each component.
+For the project, I'm using ceramic capacitors with 0.1 uF, 1 uF, 2.2 uF, 10 uF and electrolytic capacitors with 100 uF. I found all these capacitors on Digikey and chose them due to the schematic diagram from each component.
 
 ### Resistors
-I uses only one type of resistor, that being a 470 ohms capacitor. This is due to the data sheet recommending it for the component. 
+I use only one type of resistor, that being a 470-ohm capacitor. This is due to the data sheet recommending it for the component. 
+
+<img width="500" alt="Screenshot 2025-06-23 at 6 37 07 PM" src="https://github.com/user-attachments/assets/bcb27bd0-3441-4f52-ad73-da6a7a8e6c28" />
 
 ### AMP
-I found out midway from doing my schematics that the recommended AMP from [@Ryan Green](https://hackclub.slack.com/team/U090854913L) didn't have a +INPUT pin for both left and right channel. This was solved by finding another AMP which I updated in the BOM
+I found out midway from doing my schematics that the recommended AMP from [@Ryan Green](https://hackclub.slack.com/team/U090854913L) didn't have a +INPUT pin for both left and right channel. This was solved by finding another AMP, which I updated in the BOM
+
+<img width="500" alt="Screenshot 2025-06-23 at 6 37 31 PM" src="https://github.com/user-attachments/assets/a4d6812e-a220-40e0-971c-c9e0fdf6b835" />
 
 ### PCB Editor
-After I finished the schematics for the metronome I moved on the the PCB layout. The would be how each component would connect in real life and what the PCB would actually look like. This process made me rethink what the metronome device would actually look like. Before I had a image of what it would look ike but after seeing the size of my components, I realised that it wouldn't actually fit in my tiny form factor that I was thinking of having for my project. This caused me to sit down and rethink how I was going to position my components to make sure it looks nice.
+After I finished the schematics for the metronome, I moved on to the PCB layout. This is how each component would connect in real life and what the PCB would actually look like. This process made me rethink what the metronome device would actually look like. Before I had an image of what it would look like, but after seeing the size of my components, I realised that it wouldn't actually fit in my tiny form factor that I was thinking of having for my project. This caused me to sit down and rethink how I was going to position my components to make sure it looks nice.
+
+<img width="400" alt="Screenshot 2025-06-23 at 6 41 29 PM" src="https://github.com/user-attachments/assets/d3bb8e52-b59f-478a-8ff0-e8a6081ace94" />
 
 ### OLED Screen
 Through my time rethinking about the looks of the PCB and project I realised that my OLED screen was way too big (well not way too big but just a bit to big). This made me go back into researching OLED screens and thats where I found on on Aliexpress which was 1.3 inches and looked very nice in my opinion. 
 
+<img width="500" alt="Screenshot 2025-06-23 at 6 42 22 PM" src="https://github.com/user-attachments/assets/edea5cdd-2b09-4a8e-84da-7b967f90ee77" />
+
 ### Thoughts
 For today and a bit of yesterday's journal I used a code server for the journeying due to the SOM (summer of making) and me requiring to log hours which is why I'm doing it in a code server so it can track the hours. I'm unsure if it works on the Github site but better safe than sorry (or whatever the saying is ). It is also going to be a struggle with importing screenshots of my project but I'm still figuring it out. 
 
-I am also wondering how I am able to install the battery. Installing the battery requires connecting it to the +BAT and -BAT pin on the MCU. The problem is that the MCU will be on the pcb it would be cover the pins since the said pins are on back side. 
+I am also wondering how I am able to install the battery. Installing the battery requires connecting it to the +BAT and -BAT pin on the MCU. The problem is that the MCU will be on the pcb it would be cover the pins since the said pins are on the back side. 
 
 Time spent: 12 hours 
 ---
