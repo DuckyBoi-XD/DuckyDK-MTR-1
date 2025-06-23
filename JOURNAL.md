@@ -26,7 +26,7 @@ I decided that my metronome is going to have the following features:
 
 <img width="200" alt="Screenshot 2025-06-10 at 6 11 41 PM" src="https://github.com/user-attachments/assets/16c840ce-fb6f-4d92-a8ad-82d3f1f5a4fd" />
 
-### MCU (Microcontroller Unit)
+### MCU (Micro-controller Unit)
 I looked for an MCU to use, and it was clear to me to use an ESP32 due to its audio capabilities. I originally looked into the TinyPICO due to having a charging capability, a small form factor, and a DAC output. Sadly, my friend said it was way too expensive as an MCU coming in at $35 USD (including shipping). The TinyPICO also requires me to add an external DAC output due to the DAC on the TinyPICO originally being for speakers. I asked for help in the awesome community of the Slack Hackclub, and a guy named [@Ryan Green](https://hackclub.slack.com/team/U090854913L) helped me find a better and cheaper option than the TinyPICO, and they suggested the ESP32 C series, and suggested the Seeed Studio XIAO ESP32-S3 Plus. This MCU was not only cheaper, but now looking at it, it seems better than the TinyPico. 
 
 https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32S3-Plus-p-6361.html?srsltid=AfmBOooKQnAGTpSrEHZqcqBNI1Rd_LhihN7JWmB5JLmD3Lf3hoWj0AXO
@@ -45,7 +45,7 @@ This was a very simple decision due to [@Ryan Green](https://hackclub.slack.com/
 
 https://nz.mouser.com/ProductDetail/Same-Sky/SJ1-3514N?qs=WyjlAZoYn53nY7Y2NKZXvw%3D%3D&utm_source=OEMSecrets&utm_medium=aggregator&utm_campaign=SJ1-3514N&utm_term=SJ1-3514N&utm_content=Same+Sky
 
-### DAC (DIgital to Anoloug Converter) + AMP (Amplifier)
+### DAC (DIgital to Analog Converter) + AMP (Amplifier)
 
 For my metronome, I'm planning to mainly use a headphone, meaning I should use an AMP for the output sound, and I need a DAC to make it sound better and louder. Again, this was a simple decision because of the help of [@Ryan Green](https://hackclub.slack.com/team/U090854913L), who gave me advice on which ones to use. 
 
@@ -88,7 +88,7 @@ Time spent: 6 hours
 
 # June 11
 
-### Buttons + Switchs
+### Buttons + Switches
 
 I searched for the buttons for my project. I wanted buttons that were sleek and smooth while still being high quality. I searched for a long time on Aliexpress for the right switches that met my expectations, and I found a nice option. These buttons were exactly what I was looking for, but it is quite expensive compared to others, and due to the amount I needed (3). 
 I need a separate 'button' as a power button, so I wanted to use a switch for my power button. I looked for a large switch, but most of the switches on Aliexpress were too small. Luckily, I found a large switch that was perfect for my power switch.
@@ -127,7 +127,7 @@ Time spent: 6 hours
 
 # June 13
 
-### Resistoers + Capasitors
+### Resistors + Capacitors
 I started the search for my resistors and capacitors for my PCB and project. Resistors and capacitors are confusing for me because of all the specifications and terminology that are connected to them. After all my research and help from [@Ryan Green](https://hackclub.slack.com/team/U090854913L), I chose resistors and capacitors for my project, which was the most difficult part to source due to the large range of different types of them, and also not really knowing what type to use. 
 
 https://nz.mouser.com/ProductDetail/YAGEO/CFR-12JT-52-10K?qs=uYSUDLr2H%2FLcN1orUM1YfA%3D%3D
@@ -172,7 +172,7 @@ https://www.digikey.co.nz/en/products/detail/cornell-dubilier-knowles/336CKE050M
 <img width="400" alt="Screenshot 2025-06-14 at 6 54 36 PM" src="https://github.com/user-attachments/assets/f4711128-e0d0-42de-b594-482553d73d94" />
 <img width="400" alt="Screenshot 2025-06-14 at 6 54 43 PM" src="https://github.com/user-attachments/assets/bbc23ff9-bdf7-41dd-99ab-cd11a27ecfca" />
 
-### BOM Sheet Revemp
+### BOM Sheet Revamp
 I updated my BOM sheet to have the updated location of DigiKey and the OLED screen that I previously changed. I also fixed the mix-up with the different Aliexpress links from when I accidentally mixed them up. At this point, looking at the price, I wonder if the reviews would accept this, given how expensive it is.
 
 <img width="800" alt="Screenshot 2025-06-14 at 7 17 53 PM" src="https://github.com/user-attachments/assets/637b1b63-d4ba-4ca7-b3cc-9424705c91dd" />
@@ -247,7 +247,7 @@ Time spent: 6
 # June 17
 
 ### AMP
-I did my research on the new AMP, and I found a great choice after quickly adding the specs I wanted. I chose the MAX9722AEUE+ due to it being a 16 pin (accually with a +input left and right), pin extruding outwards for easy soldering access and compatibility with the potentiometer I chose. With this, I got the files of the schematic and footprint and imported it into the Kicad. 
+I did my research on the new AMP, and I found a great choice after quickly adding the specs I wanted. I chose the MAX9722AEUE+ due to it being a 16 pin (actually with a +input left and right), pin extruding outwards for easy soldering access and compatibility with the potentiometer I chose. With this, I got the files of the schematic and footprint and imported it into the Kicad. 
 
 https://www.digikey.co.nz/en/products/detail/analog-devices-inc-maxim-integrated/MAX9722AEUE/1495288
 
