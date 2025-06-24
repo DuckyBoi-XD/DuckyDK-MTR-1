@@ -359,4 +359,33 @@ I am also wondering how I am able to install the battery. Installing the battery
 
 Time spent: 12 hours 
 ---
+ # June 23
 
+ ### PCB Editor 
+
+Time spent:
+ ---
+ # June 24
+
+ ### Features
+
+ For my friend I needed to tell my friend what features each component would have and for him to code (I don't like to code and don't know how to code).
+
+ List might have changed due to me changing features and deleting some components.
+
+ - Potentiometer - Controls volume directly by connecting between DAC and AMP.
+ - Rotary Encoder - Controls the BPM amount with how much you twist. 
+ - Power Switch - Controls the main power and turns on and off the power when switching it.
+ - Button 1 - This start and stops the BPM, simple momentary switch.
+ - Button 2 - Enables and changes the BPM with presets. You have to press the button to switch between presets. Potentially a feature to adjust the BPM amount of a preset by press multiple switch or something.
+ - OLED screen - The OLED screen shows: 
+\
+BPM (large middle character)
+\
+Volume (Out of 100, on the left side as a rectangular bar with the percentage on the bottom)
+\
+Preset Indicator (3 boxes showing the prest BPM amount while having an indicator like a line under what preset is selected at the current moment. Located on the right hand side)
+\
+Time signature (Display what the time signature is. Located on the bottom beneath the BPM)
+
+- Headphone jack - The only way to listen to the metronome
