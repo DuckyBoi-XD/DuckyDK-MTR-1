@@ -366,6 +366,7 @@ Time spent: 12 hours
 
  There was many problem with this. When making my schematics, it turned the power pins into ground pins which really stumped me. There was also problems with the capacitors (smart lines? or something) choosing anywhere to go. Including the fact that my conscious made me think that with all my hard work the project wouldn't even work, This made me question my self. There was many problem which I didn't have enough experience and intelligence to fix. I realised that I jumped too high than I could reach. 
  
+ ### Thoughts
  Compared to the Hackpad that I did before this, this was way more harder than I expected. Even though I learnt many things at this point, like sourcing parts, finding footprints, using data sheets, I still couldn't figure it out. 
 
  I texted my friend about postponing the project and working on a new one (planning to do a simple macro pad) and to be honest he wasn't much help. He was more focused on me starting on his case for his own project. So I went to sleep to rethink the project
@@ -378,7 +379,7 @@ Time spent: 5 hours
 
  For my friend I needed to tell my friend what features each component would have and for him to code (I don't like to code and don't know how to code).
 
- List might have changed due to me changing features and deleting some components.
+ List might have changed due to me changing features and deleting some components (I am still changing and switching components (Mainly capacitors and resistors)).
 
  - Potentiometer - Controls volume directly by connecting between DAC and AMP.
  - Rotary Encoder - Controls the BPM amount with how much you twist. 
@@ -395,4 +396,8 @@ Preset Indicator (3 boxes showing the prest BPM amount while having an indicator
 \
 Time signature (Display what the time signature is. Located on the bottom beneath the BPM)
 
-- Headphone jack - The only way to listen to the metronome
+- Headphone jack - The only way to listen to the metronome 
+
+### Schematics
+
+### Thoughts
