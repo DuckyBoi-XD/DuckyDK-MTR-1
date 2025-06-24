@@ -407,6 +407,7 @@ One of the problems were that the OLED screen didn't have pull-up resistors. Thi
 ### Thoughts
 I'm still changing a lot of the components for my project so the most acuate list for my features would be on the read me. 
 After fixing the schematics with Github Copilot, and my friend helping me understand some of my problems with the pcb, I decided to continue this project and hopefully finished between the school holidays (context, NZ school holidays: 30th June - 13th July).
+I have to update so much things due to me changing components its not funny.
 
 Time spent: 6 hours
 ---
