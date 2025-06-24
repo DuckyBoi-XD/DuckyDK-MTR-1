@@ -401,6 +401,8 @@ Time signature (Display what the time signature is. Located on the bottom beneat
 ### Schematics
 After th trouble with the pcb the other day I knew I had to change something. There were a lot of errors internally in the schematics which I needed to fix just incase it messes up my PCB. For context, my friend showed my Github education where you get many features available to you, one of the being Github Copilot. I wanted to see if Github Copilot could accurately look through my schematics and spot out mistakes and solutions. Let me just say, it worked. I was shown a few problems with my design (most being recommendations) and instruction for how to fix it. Because I was using a AI, I didn't want to just follow the instructions, I wanted to understand how it works and why. 
 
+<img width="500" alt="Screenshot 2025-06-24 at 9 55 49 PM" src="https://github.com/user-attachments/assets/0ff5b12f-e610-404d-a1c2-c2cb49b1d90d" />
+
 #### Example
 One of the problems were that the OLED screen didn't have pull-up resistors. This confused me because on the Hackpad Oled screens, they didn't include any resistors of any kind. I found out that pull up resistors are used for pulling power from the device because I2C draw low power, this mean the I2C lines could float, which it bad.
 
