@@ -399,5 +399,14 @@ Time signature (Display what the time signature is. Located on the bottom beneat
 - Headphone jack - The only way to listen to the metronome 
 
 ### Schematics
+After th trouble with the pcb the other day I knew I had to change something. There were a lot of errors internally in the schematics which I needed to fix just incase it messes up my PCB. For context, my friend showed my Github education where you get many features available to you, one of the being Github Copilot. I wanted to see if Github Copilot could accurately look through my schematics and spot out mistakes and solutions. Let me just say, it worked. I was shown a few problems with my design (most being recommendations) and instruction for how to fix it. Because I was using a AI, I didn't want to just follow the instructions, I wanted to understand how it works and why. 
+
+#### Example
+One of the problems were that the OLED screen didn't have pull-up resistors. This confused me because on the Hackpad Oled screens, they didn't include any resistors of any kind. I found out that pull up resistors are used for pulling power from the device because I2C draw low power, this mean the I2C lines could float, which it bad.
 
 ### Thoughts
+I'm still changing a lot of the components for my project so the most acuate list for my features would be on the read me. 
+After fixing the schematics with Github Copilot, and my friend helping me understand some of my problems with the pcb, I decided to continue this project and hopefully finished between the school holidays (context, NZ school holidays: 30th June - 13th July).
+
+Time spent: 6 hours
+---
