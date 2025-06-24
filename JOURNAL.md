@@ -362,8 +362,15 @@ Time spent: 12 hours
  # June 23
 
  ### PCB Editor 
+ For today I spent a lot of time figuring the best position to put all my input components which are; potentiometer, rotary knob, switch, buttons and head phone jack. For this I took a long time exactly measuring each component location until I realised I could of just used a temporary block which exactly measures each space between components. With this temporary block my productivity increase by a lot. I positioned my components relatively where I wanted them to be which was a really bad idea, which by the end of the day I realised that I should redo it. 
 
-Time spent:
+ There was many problem with this. When making my schematics, it turned the power pins into ground pins which really stumped me. There was also problems with the capacitors (smart lines? or something) choosing anywhere to go. Including the fact that my conscious made me think that with all my hard work the project wouldn't even work, This made me question my self. There was many problem which I didn't have enough experience and intelligence to fix. I realised that I jumped too high than I could reach. 
+ 
+ Compared to the Hackpad that I did before this, this was way more harder than I expected. Even though I learnt many things at this point, like sourcing parts, finding footprints, using data sheets, I still couldn't figure it out. 
+
+ I texted my friend about postponing the project and working on a new one (planning to do a simple macro pad) and to be honest he wasn't much help. He was more focused on me starting on his case for his own project. So I went to sleep to rethink the project
+
+Time spent: 5 hours
  ---
  # June 24
 
