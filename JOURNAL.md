@@ -415,3 +415,25 @@ This one is even more important but I don't know where to put it but, I decided 
 
 Time spent: 6 hours
 ---
+
+# June 25
+
+### Schematics 
+I fixes some errors with my schematics. These changes were most of the errors that Github Copilot found like pull up resistors for the oled screen and grounding pins.
+
+### PCB Editor
+I redid the pcb, deleting the previous version and organising the location of components and wires for every pin. I made sure to label each component for it to be easier to read and solder in the future. In the pcb editor I had to manually organise the each components like the capacitors and resistors due to the smart lines working differently. 
+
+### Capacitor + Resistors
+While I fixed the schematics, I changed a lot of the capacitors and resistors for my project. This was due to simplicity with the data sheets and figuring out unlabeled components. Because it is difficult to properly show the different type of resistors and capacitors, I would just been putting it in the BOM in the Read.me file. 
+
+### Thoughts
+I think I have finished picking out my components for my project but I would still need other things like wires, connectors and screw etc. 
+
+Even though this is not part of this project but my hackpad kit arrived which made me happy. Sadly my solder is still shipping and I don't have knobs or case for my pad so I would probably need to print them some how. 
+
+Time spent: 2 hours
+---
+
+
+
