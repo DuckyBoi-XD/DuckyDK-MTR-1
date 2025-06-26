@@ -437,5 +437,34 @@ Even though this is not part of this project but my hackpad kit arrived which ma
 Time spent: 2 hours
 ---
 
+# June 26
 
+### PCB Editor
+Today I'd consider was very productive even tho I didn't get much time to work on the PCB. I think I finished every connection on the PCB for every component. I made sure to connect all the power pins individually to the MCU power which was starting to get difficult due to the amount of wires in on the PCB at this point. Then I created the ground fill zone which was quite easy due to the simplicity of what you need to do. 
+
+Basically you just need outline an area for where you want to the ground zone to be and every ground pin inside the zone will be connected. However, after doing this, I found out that the ground pins were acting strange. They suddenly turned into DGND (Digital Ground)
+which made everything worse. This forced me to redo the ground pins on every components on the schematics, which was basically just deleting them and replacing them. 
+
+##### DRC
+After I finished all of this I really thought that I was done with the PCB and I could start on the case design. Sadly, I forgot about the most dreadful part, DRC (Design Rule Check). The second I pressed DRC my heart dropped. I has SO MANY ERRORS. 
+
+I found some simple ones like me forgetting to connect come pins and some wires left unconnected which was pretty easy to fix. Then there came the difficult ones. Some of them I just deleted them a redid them and some of the actually worked, that surprised me. Then there were the annoying ones. 
+
+There were ones called, Thermal relief connection which is such a stupid error. This is because the reason that the error pops up is because the pin only has 2 connections to the ground zone. The reason this is stupid is because the pin doesn't have any more space to have a second connection and I can't do anything about it.
+
+The next one is called Solder mask aperture bridge items with different nets. To be honest I don't actually knw what it mean or what the problem even is. I read the Kicad documents and it said that it was a problem with the solder mask or something. All I understood was that I don't really thing it was my problem. So ended up asking Highway for any help about it, but after previous 'help' messages, I doubt I would actually get any help.
+
+### BOM
+I fixed some issues with the BOM, like old information and some old components I'm not using.
+
+### Notes
+During the project I put all my links of each component in my notes so it's easier to access on the fly. Due to this I had to update everything in my notes, which was a bit annoying but I did it anyway.
+
+### Thoughts
+Extremely productive day. I got a lot done and even socialised with my friends and went out for a workshop for drum kit. 
+I am still having difficulties with the DRC which bugs me. 
+I talked with my friend and I'm planning to order smaller tips for my pinecil soldering iron, which in fact I haven't even gotten yet for my hackpad so.... yikes. Also soldering tweezers.
+
+Time spent: 5 hours
+---
 
