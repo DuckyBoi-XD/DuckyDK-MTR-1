@@ -423,8 +423,12 @@ Time spent: 6 hours
 ### Schematics 
 I fixes some errors with my schematics. These changes were most of the errors that Github Copilot found like pull up resistors for the oled screen and grounding pins.
 
+<img width="500" alt="Screenshot 2025-06-24 at 9 55 49 PM" src="https://github.com/user-attachments/assets/e3557424-a7b7-4bc8-85ac-5e3999135e00" />
+
 ### PCB Editor
 I redid the pcb, deleting the previous version and organising the location of components and wires for every pin. I made sure to label each component for it to be easier to read and solder in the future. In the pcb editor I had to manually organise the each components like the capacitors and resistors due to the smart lines working differently. 
+
+<img width="578" alt="Screenshot 2025-06-25 at 9 55 54 PM" src="https://github.com/user-attachments/assets/e56d4ea1-3346-41e3-b3a6-9f37c63f8208" />
 
 ### Capacitor + Resistors
 While I fixed the schematics, I changed a lot of the capacitors and resistors for my project. This was due to simplicity with the data sheets and figuring out unlabeled components. Because it is difficult to properly show the different type of resistors and capacitors, I would just been putting it in the BOM in the Read.me file. 
