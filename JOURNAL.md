@@ -449,6 +449,8 @@ Today I'd consider was very productive even tho I didn't get much time to work o
 Basically you just need outline an area for where you want to the ground zone to be and every ground pin inside the zone will be connected. However, after doing this, I found out that the ground pins were acting strange. They suddenly turned into DGND (Digital Ground)
 which made everything worse. This forced me to redo the ground pins on every components on the schematics, which was basically just deleting them and replacing them. 
 
+<img width="400" alt="Screenshot 2025-06-26 at 11 24 07 PM" src="https://github.com/user-attachments/assets/7366cad4-3192-41d3-b24b-33ed2272aeef" />
+
 ##### DRC
 After I finished all of this I really thought that I was done with the PCB and I could start on the case design. Sadly, I forgot about the most dreadful part, DRC (Design Rule Check). The second I pressed DRC my heart dropped. I has SO MANY ERRORS. 
 
@@ -458,11 +460,17 @@ There were ones called, Thermal relief connection which is such a stupid error. 
 
 The next one is called Solder mask aperture bridge items with different nets. To be honest I don't actually knw what it mean or what the problem even is. I read the Kicad documents and it said that it was a problem with the solder mask or something. All I understood was that I don't really thing it was my problem. So ended up asking Highway for any help about it, but after previous 'help' messages, I doubt I would actually get any help.
 
+<img width="400" alt="Screenshot 2025-06-26 at 11 25 37 PM" src="https://github.com/user-attachments/assets/43a566b7-30b5-4902-ab02-d61f44017515" />
+
 ### BOM
 I fixed some issues with the BOM, like old information and some old components I'm not using.
 
+<img width="5000" alt="Screenshot 2025-06-26 at 11 26 20 PM" src="https://github.com/user-attachments/assets/56a16059-1e87-48d4-bca3-180ff5ba7cc8" />
+
 ### Notes
 During the project I put all my links of each component in my notes so it's easier to access on the fly. Due to this I had to update everything in my notes, which was a bit annoying but I did it anyway.
+
+<img width="500" alt="Screenshot 2025-06-26 at 11 27 29 PM" src="https://github.com/user-attachments/assets/a0945b21-afcf-4196-a640-aa8a5b097286" />
 
 ### Thoughts
 Extremely productive day. I got a lot done and even socialised with my friends and went out for a workshop for drum kit. 
