@@ -509,3 +509,35 @@ This project is costing a lot more than I anticipated and I am just hoping that 
 
 Time spent: 5 hours
 ---
+
+# June 30
+
+### PCB Editor
+
+##### DRC Errors
+I got a response from [@Person20020](https://hackclub.slack.com/team/U07QNKS5SKA) and he showed me exactly how to fix the DRC errors. He found out that it was an error with the footprint of the Xiao ESP32 S3 Plus where the masking points were unassigned and weren't registering as any net. He helped me solve this issue by showing me how to change the mask in the footprint editor. Once again he has helped me solve my problems and is very helpful with PCB problems.
+
+##### Finishes
+I made some last few touches on the PCB face. I added a bunch off labels to the PCB stating the name of the project, Github repo and my name/username. I also made a few changes to the pcb silk screen component location to even them out. 
+
+### Fusion
+After finishing my PCB (YAY) I moved on to the case design. I started with sketching the design of the case with the measurements I used with the PCB in the PCB editor. Using fusions 360, I created a sketch which is close to what I have thought in mind. 
+
+(In picture on top this is the explanation.
+
+- Biggest rectangle in middle is the base or inside.
+- Next rectangle is the side wall of the case.
+- Next rectangle is the cool design im thinking of.
+- Circles, holes for screw (used hackpad measurements)
+- Small rectangle is the OLED screen.)
+
+After this, I extruded every part of the sketch by the right amount. I would be creating 2 parts, 1 being the base and the other being th top. Other then some holes and maybe some text, these 2 parts will pretty much be identical.
+
+### Thoughts 
+I ACTUALLY FIXED AND FINISHED THE PCB. I was so worried that I was stuck with the DRC errors for the PCB. I'm so excited that I was actually able to finish it. That you so much [@Person20020](https://hackclub.slack.com/team/U07QNKS5SKA) for helping me with the DRC errors.
+This work was over today and a tiny bit of yesterdays work.
+I talked with my friend about the pinecil tips. We were chatting about buying tips from aliexpress. I didn't really trust it because it was from Aliexpress, what do you expect. Even though it was much more cheaper than the official version, I still didn't trust it fully and I still think that the official version is better. I'd recon if I can get the official and more expensive one approved, then I'll just use that one but if they say its too expansive Ill just use the Aliexpress one.
+I'm taking more breaks since it is the school holidays and I want to relax and play with friends for a bit more.
+
+Time spent: 5 hours
+---
