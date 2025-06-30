@@ -178,7 +178,10 @@ I updated my BOM sheet to have the updated location of DigiKey and the OLED scre
 <img width="800" alt="Screenshot 2025-06-14 at 7 17 53 PM" src="https://github.com/user-attachments/assets/637b1b63-d4ba-4ca7-b3cc-9424705c91dd" />
 
 ### Thoughts 
-Today I decided I should have a thoughts section where I give my thoughts about what I've done, and just curious things I'm thinking of. Today's one is 'WHY DOES IT TAKE SO LONG TO SOURCE PARTS'.
+Today I decided I should have a thoughts section where I give my thoughts about what I've done, and just curious things I'm thinking of.
+
+ Today's one is 'WHY DOES IT TAKE SO LONG TO SOURCE PARTS'.
+
 I also thought about how I was going to show how the parts are going to be connected, since some parts would be on the case and not the PCB.
 
 
@@ -219,7 +222,11 @@ https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2
 <img width="500" alt="Screenshot 2025-06-16 at 7 58 48 PM" src="https://github.com/user-attachments/assets/050e9057-1fc0-4ed1-a28f-01f9803e582c" />
 
 ### Thought
-I have to find a new AMP that has 16 pins or at least has a positive input pin, unlike the one I was using. I figured out how to connect the components to the PCB that are in the case, yay. Still trying to figure out what all the pins mean.
+I have to find a new AMP that has 16 pins or at least has a positive input pin, unlike the one I was using. 
+
+I figured out how to connect the components to the PCB that are in the case, yay. 
+
+Still trying to figure out what all the pins mean.
 
 Time spent: 8 hours
 ---
@@ -286,7 +293,9 @@ This is just a combination of a bunch of parts because they were really simple t
 <img width="300" alt="Screenshot 2025-06-21 at 12 36 11 AM" src="https://github.com/user-attachments/assets/73e11acf-16a8-49bd-88ae-ac2d33aaa009" />
 
 ### Thoughts
-This was the first day I did work outside my house/city. At the moment, I am on a short holiday, relaxing with my family, but I was still able to get some awesome work done. 
+This was the first day I did work outside my house/city. 
+
+At the moment, I am on a short holiday, relaxing with my family, but I was still able to get some awesome work done. 
 
 Time spent: 10 hours
 ---
@@ -315,7 +324,9 @@ For the MCU I slowly updated the schematics for it as I wired each component. Th
 <img width="751" alt="Screenshot 2025-06-22 at 4 05 29 PM" src="https://github.com/user-attachments/assets/1608b20a-b5c4-4770-a2ce-e8ff26bdba80" />
 
 ### Thoughts
-I've now down the schematics parts of the project and I am now moving on to the PCB editor. I sent the schematics to the others, and to be honest wasn't much help by they said it looked good. 
+I've now down the schematics parts of the project and I am now moving on to the PCB editor. 
+
+I sent the schematics to the others, and to be honest wasn't much help by they said it looked good. 
 
 Time spent: 9 hours
 ---
@@ -474,7 +485,9 @@ During the project I put all my links of each component in my notes so it's easi
 
 ### Thoughts
 Extremely productive day. I got a lot done and even socialised with my friends and went out for a workshop for drum kit. 
+
 I am still having difficulties with the DRC which bugs me. 
+
 I talked with my friend and I'm planning to order smaller tips for my pinecil soldering iron, which in fact I haven't even gotten yet for my hackpad so.... yikes. Also soldering tweezers.
 
 Time spent: 5 hours
@@ -490,7 +503,9 @@ Today was a very slow day. I didn't get to do much due to the error which preven
 
 ### Thoughts
 The DRC has lowed my motivation to work on the project. Hopefully someone can respond and help me with the errors. 
+
 If none respond or doesn't respond with helpful information, I might just directly dm someone who could help.
+
 My school holidays has started so 24/7 grind baby.
 
 Time spent: 4 hours 
@@ -543,9 +558,14 @@ After finishing my PCB (YAY) I moved on to the case design. I started with sketc
 After this, I extruded every part of the sketch by the right amount. I would be creating 2 parts, 1 being the base and the other being th top. Other then some holes and maybe some text, these 2 parts will pretty much be identical.
 
 ### Thoughts 
-I ACTUALLY FIXED AND FINISHED THE PCB. I was so worried that I was stuck with the DRC errors for the PCB. I'm so excited that I was actually able to finish it. That you so much [@Person20020](https://hackclub.slack.com/team/U07QNKS5SKA) for helping me with the DRC errors.
+I ACTUALLY FIXED AND FINISHED THE PCB. I was so worried that I was stuck with the DRC errors for the PCB. I'm so excited that I was actually able to finish it.
+
+That you so much [@Person20020](https://hackclub.slack.com/team/U07QNKS5SKA) for helping me with the DRC errors.
+
 This work was over today and a tiny bit of yesterdays work.
+
 I talked with my friend about the pinecil tips. We were chatting about buying tips from aliexpress. I didn't really trust it because it was from Aliexpress, what do you expect. Even though it was much more cheaper than the official version, I still didn't trust it fully and I still think that the official version is better. I'd recon if I can get the official and more expensive one approved, then I'll just use that one but if they say its too expansive Ill just use the Aliexpress one.
+
 I'm taking more breaks since it is the school holidays and I want to relax and play with friends for a bit more.
 
 Time spent: 5 hours
