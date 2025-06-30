@@ -485,6 +485,9 @@ Time spent: 5 hours
 ### PCB Editor
 Today was a very slow day. I didn't get to do much due to the error which prevented me from progressing. I asked help on highway and I did get an answer, but it only helped for a few of the errors and majority of the errors were still unfixable. I tried using all methods I could think of to find the solutions. I researched a bunch. On the Kicad document, the Xiao wiki, Kicad forums, yet there were no solutions. I even tried asking Github Copilot for help, but all methods failed. I tried to find the problem in this and I think I found it. It has something to do with the front mask ans back mask not being properly aligned with the footprint which causes errors I think. Another error which I think I found the cause, was that the MCU net points are not labeled properly. I ended up asking another question on Highway in luck for a solution.
 
+<img width="400" alt="Screenshot 2025-06-27 at 7 22 41 PM" src="https://github.com/user-attachments/assets/8720ae84-2f16-4af5-9301-ae825c5289a0" />
+<img width="400" alt="Screenshot 2025-06-27 at 7 22 50 PM" src="https://github.com/user-attachments/assets/87d07f6a-9c96-46fa-b467-ae7c2468979a" />
+
 ### Thoughts
 The DRC has lowed my motivation to work on the project. Hopefully someone can respond and help me with the errors. 
 If none respond or doesn't respond with helpful information, I might just directly dm someone who could help.
@@ -498,11 +501,17 @@ Time spent: 4 hours
 ### PCB Editor
 Recently I have been stuck with the DRC errors for my PCB board. Luckily, my respond to Person was been successful and he is currently reviewing my project. I am hoping that he is able to help my with these errors so I can continue on with my PCB.
 
+<img width="440" alt="Screenshot 2025-06-28 at 11 01 46 PM" src="https://github.com/user-attachments/assets/afb6b6fc-6307-4800-8f01-662aa8199e57" />
+
 ### Aliexpress
 While I was waiting for the response from Person, I decided to look for the last few parts I would need for my project. I looked at many things likes, wires, connectors, screws, and some other things. These are just some items that will be needed for the project and to connected everything together. I fond many items and were able to get the most cheapest ones for it. 
 
+<img width="369" alt="Screenshot 2025-06-28 at 11 01 03 PM" src="https://github.com/user-attachments/assets/3692a07b-7f61-46f8-8558-cd2af2972427" />
+
 ### BOM
 I updated the BOM with the new items I found on Aliexpress. This made my realised how expensive my BOM was and it makes me wonder if they would even accept it. I included a micro solder tip set because the project includes many surface mount components that even my friend thinks is really difficult to solder. I also included a soldering tweezers set which is also helpful for the surface mounted components.
+
+<img width="500" alt="Screenshot 2025-06-28 at 10 54 08 PM" src="https://github.com/user-attachments/assets/ae36c43b-39ec-406b-b866-6f79348d0d61" />
 
 ### Thoughts 
 This project is costing a lot more than I anticipated and I am just hoping that they would accept it. 
