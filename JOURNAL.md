@@ -541,11 +541,17 @@ Time spent: 5 hours
 ##### DRC Errors
 I got a response from [@Person20020](https://hackclub.slack.com/team/U07QNKS5SKA) and he showed me exactly how to fix the DRC errors. He found out that it was an error with the footprint of the Xiao ESP32 S3 Plus where the masking points were unassigned and weren't registering as any net. He helped me solve this issue by showing me how to change the mask in the footprint editor. Once again he has helped me solve my problems and is very helpful with PCB problems.
 
+<img width="300" alt="Screenshot 2025-06-30 at 11 59 19 PM" src="https://github.com/user-attachments/assets/05be5f3f-2ca8-4cd0-849d-9a8555757e8b" />
+
 ##### Finishes
 I made some last few touches on the PCB face. I added a bunch off labels to the PCB stating the name of the project, Github repo and my name/username. I also made a few changes to the pcb silk screen component location to even them out. 
 
+<img width="500" alt="Screenshot 2025-06-30 at 9 26 36 PM" src="https://github.com/user-attachments/assets/c4721e2a-b23b-486c-adab-66e5dc01ba25" />
+
 ### Fusion
 After finishing my PCB (YAY) I moved on to the case design. I started with sketching the design of the case with the measurements I used with the PCB in the PCB editor. Using fusions 360, I created a sketch which is close to what I have thought in mind. 
+
+<img width="300" alt="Screenshot 2025-06-30 at 11 14 02 PM" src="https://github.com/user-attachments/assets/554e7bdd-4556-4b24-87b6-367b58c47202" />
 
 (In picture on top this is the explanation.
 
@@ -555,7 +561,9 @@ After finishing my PCB (YAY) I moved on to the case design. I started with sketc
 - Circles, holes for screw (used hackpad measurements)
 - Small rectangle is the OLED screen.)
 
-After this, I extruded every part of the sketch by the right amount. I would be creating 2 parts, 1 being the base and the other being th top. Other then some holes and maybe some text, these 2 parts will pretty much be identical.
+After this, I extruded every part of the sketch by the right amount. I would be creating 2 parts, 1 being the base and the other being the top. Other then some holes and maybe some text, these 2 parts will pretty much be identical.
+
+<img width="500" alt="Screenshot 2025-06-30 at 9 25 55 PM" src="https://github.com/user-attachments/assets/f3d074f2-c7c1-429e-9e87-ef344d285f4b" />
 
 ### Thoughts 
 I ACTUALLY FIXED AND FINISHED THE PCB. I was so worried that I was stuck with the DRC errors for the PCB. I'm so excited that I was actually able to finish it.
