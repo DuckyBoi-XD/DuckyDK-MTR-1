@@ -578,3 +578,11 @@ I'm taking more breaks since it is the school holidays and I want to relax and p
 
 Time spent: 5 hours
 ---
+
+# July 1
+
+### Fusion
+Now that I have finally finished the PCB I focused of the case design for my project. This was important since this is that my final end result would look like. After yesterday's work I had to redo the entire extrusion because of some calculation errors with the height of the case and screen. I decided to parsley design the screen part of the case due to it being less informative about its size. This took a lot of trial and error and lots of going back and forth with the measurements. The holes for the rotary encoder and potentiometer were really difficult to get right due to there being little to no information about the measurements from left or right to the knob which annoys me. I ended up just measuring and estimating a rotary encoder in real life which work a bit but I think it might be off by a bit but never or less I continued on. I noted to my self that the case might not be right and I'll just fix it later on.
+
+### Thoughts 
+Fusion doesn't track time or track time well so I'm not getting much hours off this. I'm mainly getting out the time spend writing in this journal but with simple explanations like this day was really quick to type.
