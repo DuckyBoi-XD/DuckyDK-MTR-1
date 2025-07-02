@@ -597,6 +597,11 @@ Time spent: 4 hours
 ### Fusion
 Today I continued on the CAD model on fusion. After polishing the main part of the case I imported the PCB model so I can understand and make sure the all the components can fit inside. The PCB was the main components and I evenly slotted it in the middle of my case. Afterwards I imported the Xiao ESP32 S3 Plus model to create and make sure the hole for the cable is correct. I also imported the headphone jack to make a hole for it too but sadly the potentiometer didn't have a cad model to use properly. Instead, I manually measure all the specs of the potentiometer and created a hole that aligned wait the measurements. I did similarly with the rotary encoder due to it not being attacked to the pcb but the case. I created a hole and indent for the OLED screen, which I don't think is correct due to the uninformative measurements given by aliexpress. After that I created the holes for the buttons but this game me a problem. THe buttons were too big and close to the pcb.
 
+<img width="500" alt="Screenshot 2025-07-02 at 8 26 19 AM" src="https://github.com/user-attachments/assets/a2303bed-8226-4a50-a11e-aef0fe43716c" />
+<img width="500" alt="Screenshot 2025-07-02 at 11 15 18 PM" src="https://github.com/user-attachments/assets/03e6d505-f80f-4288-a2c4-c81ccee33b40" />
+<img width="500" alt="Screenshot 2025-07-02 at 11 15 27 PM" src="https://github.com/user-attachments/assets/d627699d-d6f4-4a9e-909f-2baa7972ebcb" />
+<img width="500" alt="Screenshot 2025-07-02 at 11 15 36 PM" src="https://github.com/user-attachments/assets/d42548f7-22b9-483d-84fc-dac6354309ed" />
+
 ### Thoughts
 I got my soldering iron from my hackpad and so I soldered a few components. Now I need to wait for the case.
 
