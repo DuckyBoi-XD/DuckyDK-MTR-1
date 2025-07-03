@@ -607,3 +607,23 @@ I need to complete it soon because aliexpress has a sale which would be soo good
 Time spent: 7 hours
 ---
 
+# July 3
+
+### Fusion
+Today I finished the CAD model of the case. The solution to my problem with the buttons were to cut a hole in the PCB. Not the best solutions but it works. Due to this, I had to redo the PCB model that I already had. In this I think I messed up the location of the button holes because the buttons weren't even on each side, but using the PCB model, I was aligned. I Fixed the MCU location (after deleting the previous PCB model it fell down onto the case, I don't know why) and corrected the plug's location. I polished everything and made sure it look good and great. 
+
+
+### Kicad Editor
+Due to me needing to change the PCB shape for the CAd model, I had to change the PCB shape. This part was a bit difficult due to me learning more about edge cutting. I basically remade the board shape because I didn't know how to make a cut in the board. Due to this, I had to reposition my title, name and repo in the corner. While I was changing the PCB shape, I also changed the pins of the button to make sure they are even. 
+
+### Final BOM Update
+After I finished the PCB and case design, I included some last times to time BOM and switched some items. I added stuff like foam to hold up the PCB and nano tape to hopefully hold up the OLED screen. I removed the screws that I was originally going to use but I realised that I couldn't due to the thin part of the case for the OLED screen. I also included a micro soldering stand and usb-c for my soldering iron after struggling with soldering my last project (Hackpad).
+
+### Thoughts
+After looking at the case, I realised that my potentiometer might not be able to fit in my case. The potentiometer is a big too short where the knob won't be able to through the case. 
+
+I am think of changing the potentiometer which is a lot of work to be done.
+
+Time spent: 9 hours 
+---
+
