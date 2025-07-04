@@ -621,7 +621,7 @@ Today I finished the CAD model of the case. The solution to my problem with the 
 ### Kicad Editor
 Due to me needing to change the PCB shape for the CAd model, I had to change the PCB shape. This part was a bit difficult due to me learning more about edge cutting. I basically remade the board shape because I didn't know how to make a cut in the board. Due to this, I had to reposition my title, name and repo in the corner. While I was changing the PCB shape, I also changed the pins of the button to make sure they are even. 
 
-### Final BOM Update
+### BOM Update
 After I finished the PCB and case design, I included some last times to time BOM and switched some items. I added stuff like foam to hold up the PCB and nano tape to hopefully hold up the OLED screen. I removed the screws that I was originally going to use but I realised that I couldn't due to the thin part of the case for the OLED screen. I also included a micro soldering stand and usb-c for my soldering iron after struggling with soldering my last project (Hackpad).
 
 ### Thoughts
@@ -630,5 +630,26 @@ After looking at the case, I realised that my potentiometer might not be able to
 I am think of changing the potentiometer which is a lot of work to be done.
 
 Time spent: 9 hours 
+---
+
+# July 4
+
+### Fusion
+Today I think i finished the case. I double checked every component was correct and matched up with the dimensions of the case. I checked the different items I was using like screw to make sure they would even fit (had a problem with that one). I polished the case adding some text and cleaned up some edge. After finishing it, I copied the case into a new file which would be called the production file and showed what needed to be printed. 
+
+### Final BOM Update (Hopefully)
+I added my last items to my BOM (hopefully) and updated the prices of many aliexpress items. This was really annoy because aliexpress's prices fluctuates a lot which is annoying when creating a BOM. 
+
+### Repo Update
+To submit the project, I needed to create many things in my repo. I created my README.md file and filled in the necessary information. I started creating the files and folders for the CAD and PCB showcase files and production files. 
+
+### Thoughts 
+I finally finished the case and the final PCB design so I'm basically finishing up the project's repo. 
+
+I also made a case for my friend which took a chuck of my time. 
+
+I really wanted to finish this project and spent an uncomfortable amount of time on it today. I'm at the home stretch and I just want to be free.... and move on to a new project.
+
+Time spent: 12 hours
 ---
 
