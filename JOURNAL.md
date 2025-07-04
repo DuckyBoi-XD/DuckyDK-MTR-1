@@ -661,6 +661,8 @@ I also made a case for my friend which took a chuck of my time.
 
 I really wanted to finish this project and spent an uncomfortable amount of time on it today. I'm at the home stretch and I just want to be free.... and move on to a new project.
 
+There are problem with committing from code server which I don't understand so the last few updates might be really weird.
+
 Time spent: 12 hours
 ---
 
