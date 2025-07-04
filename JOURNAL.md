@@ -617,6 +617,9 @@ Time spent: 7 hours
 ### Fusion
 Today I finished the CAD model of the case. The solution to my problem with the buttons were to cut a hole in the PCB. Not the best solutions but it works. Due to this, I had to redo the PCB model that I already had. In this I think I messed up the location of the button holes because the buttons weren't even on each side, but using the PCB model, I was aligned. I Fixed the MCU location (after deleting the previous PCB model it fell down onto the case, I don't know why) and corrected the plug's location. I polished everything and made sure it look good and great. 
 
+<img width="500" alt="Screenshot 2025-07-03 at 12 25 30 PM" src="https://github.com/user-attachments/assets/e1453b98-fecb-4370-a23c-691f3f61fac7" />
+<img width="500" alt="Screenshot 2025-07-03 at 12 25 36 PM" src="https://github.com/user-attachments/assets/c3690110-f119-43b4-ae51-335012507753" />
+<img width="500" alt="Screenshot 2025-07-03 at 12 25 58 PM" src="https://github.com/user-attachments/assets/aec64761-8695-44db-9a6d-5f00e16d2206" />
 
 ### Kicad Editor
 Due to me needing to change the PCB shape for the CAd model, I had to change the PCB shape. This part was a bit difficult due to me learning more about edge cutting. I basically remade the board shape because I didn't know how to make a cut in the board. Due to this, I had to reposition my title, name and repo in the corner. While I was changing the PCB shape, I also changed the pins of the button to make sure they are even. 
@@ -624,10 +627,18 @@ Due to me needing to change the PCB shape for the CAd model, I had to change the
 ### BOM Update
 After I finished the PCB and case design, I included some last times to time BOM and switched some items. I added stuff like foam to hold up the PCB and nano tape to hopefully hold up the OLED screen. I removed the screws that I was originally going to use but I realised that I couldn't due to the thin part of the case for the OLED screen. I also included a micro soldering stand and usb-c for my soldering iron after struggling with soldering my last project (Hackpad).
 
+<img width="500" alt="Screenshot 2025-07-03 at 10 42 37 AM" src="https://github.com/user-attachments/assets/5588556d-77a2-4789-af30-8cabe55c1229" />
+
+### BOM Update
+After I finished the PCB and case design, I included some last touchs to time BOM and switched some items. I added stuff like foam to hold up the PCB and nano tape to hopefully hold up the OLED screen. I removed the screws that I was originally going to use but I realised that I couldn't due to the thin part of the case for the OLED screen. I also included a micro soldering stand and usb-c for my soldering iron after struggling with soldering my last project (Hackpad).
+
+<img width="300" alt="Screenshot 2025-07-03 at 9 43 24 PM" src="https://github.com/user-attachments/assets/470f4a66-32b0-4db9-b4ce-ab50efde38ed" />
+>>>>>>> de66846e65b4969b4935cf65a2a9b8242352f6ec
+
 ### Thoughts
 After looking at the case, I realised that my potentiometer might not be able to fit in my case. The potentiometer is a big too short where the knob won't be able to through the case. 
 
-I am think of changing the potentiometer which is a lot of work to be done.
+I'm thinking of changing the potentiometer, which is a lot of work to be done. I'm not almost done D:
 
 Time spent: 9 hours 
 ---
