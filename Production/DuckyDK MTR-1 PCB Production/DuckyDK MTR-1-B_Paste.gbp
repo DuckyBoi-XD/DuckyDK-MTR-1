@@ -1,0 +1,22 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,9.0.2*
+G04 #@! TF.CreationDate,2025-07-04T19:53:14+12:00*
+G04 #@! TF.ProjectId,DuckyDK MTR-1,4475636b-7944-44b2-904d-54522d312e6b,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Paste,Bot*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.2) date 2025-07-04 19:53:14*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10R,1.270000X0.903600*%
+%ADD11O,1.270000X0.903600*%
+G04 APERTURE END LIST*
+D10*
+X66466000Y-82854800D03*
+X66486000Y-77774800D03*
+D11*
+X49456000Y-76504800D03*
+M02*
