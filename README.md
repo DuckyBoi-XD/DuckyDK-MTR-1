@@ -64,7 +64,7 @@ Tax is calculated at the last **TAX**
 | Total: | $104.34 (BASE COMPONENTS TOTAL) | $129.69 (ALL TOTAL) | 
 |--------|---------------------------------|---------------------|
 ### Construction
-The DuckyDK MTR-1 was mainly made using Kicad, Fusion 360, Github and Slack. I made all the PCB schematics and design of the PCB in Kicad, while I made the 3D model of the case in Fusion 360. I used Github to document my process of making the project and Slack to help me answer questions.
+The DuckyDK MTR-1 was mainly made using Kicad, Fusion 360, Github and Slack. I made all the PCB schematics and design of the PCB in Kicad, while I made the 3D model of the case in Fusion 360. I used GitHub to document my process of making the project and Slack to help me answer questions.
 
 ## Kicad Schematic
 <img width="866" alt="Screenshot 2025-07-05 at 12 15 32 PM" src="https://github.com/user-attachments/assets/f2c3c3cd-cb48-4ade-b3a3-bd41635f7fe4" />
@@ -72,8 +72,17 @@ The DuckyDK MTR-1 was mainly made using Kicad, Fusion 360, Github and Slack. I m
 ## Kicad PCB
 <img width="893" alt="Screenshot 2025-07-05 at 12 15 48 PM" src="https://github.com/user-attachments/assets/ef771269-d041-4825-8337-2ac4c50c05bc" />
 
+## PCB wiring (RED LINES)
+<img width="893" alt="Screenshot 2025-07-05 at 12 15 48 PM" src="https://github.com/user-attachments/assets/bd7fd55f-9ef2-4590-bb66-2aebeef9a0f1" />
+(I didn't know how to make this look nice.)
+
 ## Fusion Case
 <img width="574" alt="Screenshot 2025-07-04 at 5 19 01 PM" src="https://github.com/user-attachments/assets/665c3d3e-0bae-4d9c-90e9-277a2d006df4" />
 
 ## Fusion Production Case
 <img width="1008" alt="Screenshot 2025-07-04 at 5 18 35 PM" src="https://github.com/user-attachments/assets/a01da600-e194-4737-8f38-2c91e4207637" />
+
+### Note
+My Repo contains a file called DuckyDK MTR-1. I don't really know why it's there or how to remove it. I was there after I used my friend's code server to update both the readme and the journal.
+The BOM contains some items that are components that will help a huge amount with this project and could help future projects (Hot plate, small soldering tip, solderer stand, tweezers.
+Digikey's BOM part needs to be over $50 USD for free shipping. This is really important because shipping to my country is very expensive.
