@@ -665,7 +665,7 @@ I also made a case for my friend which took a chuck of my time.
 
 I really wanted to finish this project and spent an uncomfortable amount of time on it today. I'm at the home stretch and I just want to be free.... and move on to a new project.
 
-There are problem with committing from code server which I don't understand so the last few updates might be really weird.
+There are problems with committing from the code server which I don't understand so the last few updates might be really weird.
 
 P.S. This is me the next day importing the pictures (due to my power being wack due to a thunderstorm) and I realised I didn't take pictures before updating them even more.
 
@@ -679,9 +679,15 @@ I finally finished my last BOM changes, and I finished the BOM on the GitHub rea
 <img width="500" alt="Screenshot 2025-07-05 at 5 21 01 PM" src="https://github.com/user-attachments/assets/c1d59efe-007b-4faa-9a1d-52f0bc480533" />
 
 ### REPO FINISH
-Submitting the project requires a lot to be submitted. I double-checked that everything was complete and finished up the journal for the last day (this :D). I don't really know how to finish this part because as I do stuff, I need to add it into the journal, and I'm submitting the journal, so it gets confusing.
+Submitting the project requires a lot to be submitted. I double-checked that everything was complete and finished up the journal for the last day (this :D). I don't really know how to finish this part because as I do stuff, I need to add it to the journal, and I'm submitting the journal, so it gets confusing.
 
 ### Thoughts
 This is the last journal, and I'm submitting this. Good luck to me waiting for this to get approved.
 
-Also, I didn't really write much in the journal because I mainly want this to be finished and sent for approval.
+Also, I didn't really write much in the journal because I mainly wanted this to be finished and sent for approval.
+
+P.S. I wrote this around 5:30 pm, and I sent a message on Slack to look over my repo, and it changed a lot, so I'm actually not finished.
+
+Time spent (till 5:30 pm): 3 hours
+---
+
