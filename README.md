@@ -82,7 +82,20 @@ The DuckyDK MTR-1 was mainly made using Kicad, Fusion 360, Github and Slack. I m
 ## Fusion Production Case
 <img width="1008" alt="Screenshot 2025-07-04 at 5 18 35 PM" src="https://github.com/user-attachments/assets/a01da600-e194-4737-8f38-2c91e4207637" />
 
+### Credit
+Cheers to all these people for helping make this project possible.
+
+- [@Ryan Green](https://hackclub.slack.com/team/U090854913L): For helping me understand how to source parts and pick out a few parts for me to use.
+- [@Person20020 (Koji)](https://hackclub.slack.com/team/U07QNKS5SKA): For helping me with PCB problems even when he's mainly helps with HackPad problems, also he helped with my HackPad.
+- [Rudy](https://hackclub.slack.com/team/U079HV9PTC7): For helping with lots of different parts like questions and help picking out the Xiao ESP32 S3.
+- [@alexren](https://hackclub.slack.com/team/U06PR6B8D37) and [@acon](https://hackclub.slack.com/team/U04KEK4TS72): For being great event organisers and creating Highway for me to do this.
+- Whoever is looking over the project: I hope you enjoy reading all this. Thanks for your feedback once you finish.
+
 ### Note
 My Repo contains a file called DuckyDK MTR-1. I don't really know why it's there or how to remove it. I was there after I used my friend's code server to update both the readme and the journal.
-The BOM contains some items that are components that will help a huge amount with this project and could help future projects (Hot plate, small soldering tip, solderer stand, tweezers.
+
+The BOM contains some items that are components that will help a huge amount with this project and could help future projects (Hot plate, small soldering tip, solderer stand and tweezers.
+
 Digikey's BOM part needs to be over $50 USD for free shipping. This is really important because shipping to my country is very expensive.
+
+Side tangent, I'm still mad that my time from SoM is useless and especially because they announced it once I almost finished the project.
