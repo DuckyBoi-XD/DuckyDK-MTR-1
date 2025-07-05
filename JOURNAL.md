@@ -648,11 +648,15 @@ Time spent: 9 hours
 ### Fusion
 Today I think i finished the case. I double checked every component was correct and matched up with the dimensions of the case. I checked the different items I was using like screw to make sure they would even fit (had a problem with that one). I polished the case adding some text and cleaned up some edge. After finishing it, I copied the case into a new file which would be called the production file and showed what needed to be printed. 
 
+<img width="300" alt="Screenshot 2025-07-04 at 5 19 01 PM" src="https://github.com/user-attachments/assets/f44aa7a2-06e6-4711-bc1c-81997b296c20" />
+
 ### Final BOM Update (Hopefully)
-I added my last items to my BOM (hopefully) and updated the prices of many aliexpress items. This was really annoy because aliexpress's prices fluctuates a lot which is annoying when creating a BOM. 
+I added my last items to my BOM (hopefully) and updated the prices of many Aliexpress items. This was really annoy because aliexpress's prices fluctuates a lot which is annoying when creating a BOM. 
+
 
 ### Repo Update
 To submit the project, I needed to create many things in my repo. I created my README.md file and filled in the necessary information. I started creating the files and folders for the CAD and PCB showcase files and production files. 
+
 
 ### Thoughts 
 I finally finished the case and the final PCB design so I'm basically finishing up the project's repo. 
@@ -663,6 +667,21 @@ I really wanted to finish this project and spent an uncomfortable amount of time
 
 There are problem with committing from code server which I don't understand so the last few updates might be really weird.
 
+P.S. This is me the next day importing the pictures (due to my power being wack due to a thunderstorm) and I realised I didn't take pictures before updating them even more.
+
 Time spent: 12 hours
 ---
+### July 5
 
+### BOM Actual Final
+I finally finished my last BOM changes, and I finished the BOM on the GitHub readme. I polished the BOM sheet and exported it as a CSV file as needed. 
+
+<img width="500" alt="Screenshot 2025-07-05 at 5 21 01 PM" src="https://github.com/user-attachments/assets/c1d59efe-007b-4faa-9a1d-52f0bc480533" />
+
+### REPO FINISH
+Submitting the project requires a lot to be submitted. I double-checked that everything was complete and finished up the journal for the last day (this :D). I don't really know how to finish this part because as I do stuff, I need to add it into the journal, and I'm submitting the journal, so it gets confusing.
+
+### Thoughts
+This is the last journal, and I'm submitting this. Good luck to me waiting for this to get approved.
+
+Also, I didn't really write much in the journal because I mainly want this to be finished and sent for approval.
