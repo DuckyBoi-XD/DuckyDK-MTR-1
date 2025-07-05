@@ -1,0 +1,36 @@
+BILL OF MATERIALS,,,,
+Component,Description,Base,Extra cost,Link
+MCU,Seeed Studio XIAO ESP32-S3 Plus,$7.99 ,-,https://www.digikey.co.nz/en/products/detail/seeed-technology-co-ltd/102010671/26553873
+DAC,PCM5102APWR,$4.43 ,-,https://www.digikey.co.nz/en/products/detail/texas-instruments/PCM5102APWR/3727211?s=N4IgTCBcDaIAoGECyBWAjABjAQTgdQCUQBdAXyA
+AMP,MAX9722AEUE+,$1.52 ,-,https://www.digikey.co.nz/en/products/detail/analog-devices-inc-maxim-integrated/MAX9722AEUE/1495288
+Potentio,PTN092-H50115K1A,$2.00 ,-,https://www.digikey.co.nz/en/products/detail/same-sky-formerly-cui-devices/PTN092-H50115K1A/24767692
+Rotenc,EC11E18244A5,$4.85 ,-,https://www.digikey.co.nz/en/products/detail/alps-alpine/ec11e18244a5/21721665
+Headphone jack,SJ1-3514N,$1.19 ,-,https://www.digikey.co.nz/en/products/detail/same-sky-formerly-cui-devices/sj1-3514n/738685
+Capacitor electro 100 uF x10,ECE-A1AN101X,$2.71 ,-,https://www.digikey.co.nz/en/products/detail/panasonic-electronic-components/ECE-A1AN101X/364922
+Capacitor electro 10 uF x10,EEA-GA1C100H,$1.53 ,-,https://www.digikey.co.nz/en/products/detail/panasonic-electronic-components/EEA-GA1C100H/2513289
+Capacitor uF 0.1 x10,C320C104K5R5TA7305,$1.29 ,-,https://www.digikey.co.nz/en/products/detail/kemet/C320C104K5R5TA7305/12701231
+Capacitor uF 1 x10,C330C105M5R5TA7301,$3.08 ,-,https://www.digikey.co.nz/en/products/detail/kemet/C330C105M5R5TA7301/14681306
+Capacitor uF 2.2 x10,C330C225M5U5TA7303,$4.58 ,-,https://www.digikey.co.nz/en/products/detail/kemet/C330C225M5U5TA7303/6562327
+Resistor 470 ohms x10,CFR-25JB-52-470R,$0.34 ,-,https://www.digikey.co.nz/en/products/detail/yageo/CFR-25JB-52-470R/2211
+Resistor 4.7 kohm x10,MFR-25FRF52-4K7,$0.39 ,-,https://www.digikey.co.nz/en/products/detail/yageo/MFR-25FRF52-4K7/9139057
+Cables,1007-24-1-2000-001-1-TD,$2.22 ,-,https://www.digikey.co.nz/en/products/detail/cnc-tech/1007-24-1-2000-001-1-TD/17799235
+Pin header (Components),20-0600-21,$3.83 ,-,https://www.digikey.co.nz/en/products/detail/aries-electronics/20-0600-21/4207162
+Screw,97791003111,$2.24 ,-,https://www.digikey.co.nz/en/products/detail/w%C3%BCrth-elektronik/97791003111/10056389
+ Tweezers 1,404070001,$2.50 ,-,https://www.digikey.co.nz/en/products/detail/seeed-technology-co-ltd/404070001/5488233
+Tweezers 2,422,$3.95 ,$7.60 ,https://www.digikey.co.nz/en/products/detail/adafruit-industries-llc/422/7241434
+,,,,
+OLED,1.3 Inch Oled Module Witte Kleur,$5.36 ,-,https://www.aliexpress.com/item/1005007451015054.html?spm=a2g0o.productlist.main.3.5c94BkFLBkFLwI&algo_pvid=c05ab788-0f62-4cac-8ecf-0ac50b96f1c8&algo_exp_id=c05ab788-0f62-4cac-8ecf-0ac50b96f1c8-2&pdp_ext_f=%7B%22order%22%3A%221408%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21NZD%215.36%211.68%21%21%213.15%210.99%21%402103247917505815500323989e2c7f%2112000040806152742%21sea%21NZ%216394433987%21ABX&curPageLogUid=4GgHuLqPJwAs&utparam-url=scene%3Asearch%7Cquery_from%3A
+Button x2,Ultra Short Switch,$9.34 ,-,https://www.aliexpress.com/item/1005004920346156.html?spm=a2g0o.productlist.main.7.7f7d5f2722dp5N&algo_pvid=88ea1ebf-ed98-4122-ae48-2b34d2cbcef4&algo_exp_id=88ea1ebf-ed98-4122-ae48-2b34d2cbcef4-6&pdp_ext_f=%7B%22order%22%3A%221272%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21NZD%214.19%211.70%21%21%2117.53%217.11%21%402103247417506694259818233e29c3%2112000039500055503%21sea%21NZ%216394433987%21ABX&curPageLogUid=AdxbPFQrTg6S&utparam-url=scene%3Asearch%7Cquery_from%3A
+Nuts (rotenc),Hexagon Fine Thread Thin Nuts,$3.84 ,$5.49 ,https://www.aliexpress.com/item/1005006173995318.html?spm=a2g0o.productlist.main.15.7dbd4ebaNansD7&algo_pvid=bbffa5d8-f689-4588-a6f6-ce0996436945&algo_exp_id=bbffa5d8-f689-4588-a6f6-ce0996436945-14&pdp_ext_f=%7B%22order%22%3A%22151%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21NZD%211.85%211.39%21%21%217.88%215.91%21%40210308a417510851180067032e73ba%2112000036120140725%21sea%21NZ%216394433987%21ABX&curPageLogUid=mVYjfbvrU5vv&utparam-url=scene%3Asearch%7Cquery_from%3A
+Head insert (case),Brass Hot Melt Inset Nuts Heating Molding,$4.71 ,-,https://www.aliexpress.us/item/1005003582355741.html?spm=a2g0o.productlist.main.5.24ac12d7m7D9Ol&algo_pvid=870e099a-1be4-4b3b-9495-46eae48c9ac9&algo_exp_id=870e099a-1be4-4b3b-9495-46eae48c9ac9-4&pdp_ext_f=%7B%22order%22%3A%2218759%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21NZD%213.79%211.66%21%21%212.26%210.99%21%402103244b17515900105603223eeccf%2112000026370649721%21sea%21NZ%216394433987%21ABX&curPageLogUid=PvX1sJbDEX6O&utparam-url=scene%3Asearch%7Cquery_from%3A
+Gecko Tape,Nano Tape Double Sided Tape,$2.84 ,-,https://www.aliexpress.com/item/1005003517281636.html?spm=a2g0o.productlist.main.5.579eBKXiBKXiG2&algo_pvid=c1e8b79e-8d5b-4bac-90af-ffbb97b66877&algo_exp_id=c1e8b79e-8d5b-4bac-90af-ffbb97b66877-4&pdp_ext_f=%7B%22order%22%3A%22285%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21USD%211.65%210.99%21%21%211.65%210.99%21%402101c72a17515111151351279e075c%2112000026805632505%21sea%21NZ%216394433987%21ABX&curPageLogUid=gzcBz74skv8b&utparam-url=scene%3Asearch%7Cquery_from%3A
+Solder stand,Mini Micarta Soldering Iron Stand Holder,$3.21 ,-,https://www.aliexpress.com/item/1005006352272696.html?spm=a2g0o.store_pc_home.promoteRecommendProducts_2004652237334.1005006352272696
+Soldering iron tip,PINE64 Pinecil TS101 Soldering Iron Tip,$10.01 ,-,https://www.aliexpress.com/item/1005006125240838.html?spm=a2g0o.store_pc_home.promoteWysiwyg_2004652237333.1005006125240838
+Hot plate,Type-C Mini Hot Plate PCB SMD,$2.35 ,$5.90 ,https://www.aliexpress.com/item/1005006511319731.html?spm=a2g0o.productlist.main.1.60d741e0IoXroY&algo_pvid=6e3b7f9e-e587-4607-8ce7-bc63e0be9c8f&algo_exp_id=6e3b7f9e-e587-4607-8ce7-bc63e0be9c8f-0&pdp_ext_f=%7B%22order%22%3A%221244%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21NZD%2147.35%212.35%21%21%21201.83%219.99%21%402103277f17516748696561900e3da4%2112000037477574263%21sea%21NZ%216394433987%21ABX&curPageLogUid=GBlzTiUO8Kkx&utparam-url=scene%3Asearch%7Cquery_from%3A
+,,,,
+PCB,Custom PCB (JLCPCB,$2.00 ,$6.40 ,
+,,,,
+Printing legion,Custom CAD model,$10 ,,
+,,,,
+Total (parts):,,$104.30 ,,
+Total:,,$129.69 ,,
