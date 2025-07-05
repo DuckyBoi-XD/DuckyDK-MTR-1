@@ -3,6 +3,22 @@
 ### Description
 This is a Metronome device called the DuckyDK MTR-1. This is for musicians, like me, who need a portable metronome that can be used anywhere. It is designed in a compact form to maximize space usage and portability. 
 
+## Kicad Schematic
+<img width="866" alt="Screenshot 2025-07-05 at 12 15 32 PM" src="https://github.com/user-attachments/assets/f2c3c3cd-cb48-4ade-b3a3-bd41635f7fe4" />
+
+## Kicad PCB
+<img width="893" alt="Screenshot 2025-07-05 at 12 15 48 PM" src="https://github.com/user-attachments/assets/ef771269-d041-4825-8337-2ac4c50c05bc" />
+
+## PCB wiring (RED LINES)
+<img width="893" alt="Screenshot 2025-07-05 at 12 15 48 PM" src="https://github.com/user-attachments/assets/bd7fd55f-9ef2-4590-bb66-2aebeef9a0f1" />
+(I didn't know how to make this look nice.)
+
+## Fusion Case
+<img width="574" alt="Screenshot 2025-07-04 at 5 19 01 PM" src="https://github.com/user-attachments/assets/665c3d3e-0bae-4d9c-90e9-277a2d006df4" />
+
+## Fusion Production Case
+<img width="1008" alt="Screenshot 2025-07-04 at 5 18 35 PM" src="https://github.com/user-attachments/assets/a01da600-e194-4737-8f38-2c91e4207637" />
+
 ### Inspiration
 This idea was thought of and inspired when I bought a new drum kit which I loved, and I wanted to think of different projects I could make which is connected to my drum kit. One idea that was obvious was to make a custom metronome. This is the result of that idea. Even though devices like laptops can do this, I wanted to make a portable, offline metronome what is not reliant on any device and can be brought along to many places. 
 
@@ -66,28 +82,13 @@ Tax is calculated at the last **TAX**
 ### Construction
 The DuckyDK MTR-1 was mainly made using Kicad, Fusion 360, Github and Slack. I made all the PCB schematics and design of the PCB in Kicad, while I made the 3D model of the case in Fusion 360. I used GitHub to document my process of making the project and Slack to help me answer questions.
 
-## Kicad Schematic
-<img width="866" alt="Screenshot 2025-07-05 at 12 15 32 PM" src="https://github.com/user-attachments/assets/f2c3c3cd-cb48-4ade-b3a3-bd41635f7fe4" />
-
-## Kicad PCB
-<img width="893" alt="Screenshot 2025-07-05 at 12 15 48 PM" src="https://github.com/user-attachments/assets/ef771269-d041-4825-8337-2ac4c50c05bc" />
-
-## PCB wiring (RED LINES)
-<img width="893" alt="Screenshot 2025-07-05 at 12 15 48 PM" src="https://github.com/user-attachments/assets/bd7fd55f-9ef2-4590-bb66-2aebeef9a0f1" />
-(I didn't know how to make this look nice.)
-
-## Fusion Case
-<img width="574" alt="Screenshot 2025-07-04 at 5 19 01 PM" src="https://github.com/user-attachments/assets/665c3d3e-0bae-4d9c-90e9-277a2d006df4" />
-
-## Fusion Production Case
-<img width="1008" alt="Screenshot 2025-07-04 at 5 18 35 PM" src="https://github.com/user-attachments/assets/a01da600-e194-4737-8f38-2c91e4207637" />
-
 ### Credit
 Cheers to all these people for helping make this project possible.
 
 - [@Ryan Green](https://hackclub.slack.com/team/U090854913L): For helping me understand how to source parts and pick out a few parts for me to use.
 - [@Person20020 (Koji)](https://hackclub.slack.com/team/U07QNKS5SKA): For helping me with PCB problems even when he's mainly helps with HackPad problems, also he helped with my HackPad.
-- [Rudy](https://hackclub.slack.com/team/U079HV9PTC7): For helping with lots of different parts like questions and help picking out the Xiao ESP32 S3.
+- [@QinCai](https://hackclub.slack.com/team/U07BNRCEARM): For helping me answer questions and creating the code part of the project.
+- [Rudy](https://hackclub.slack.com/team/U079HV9PTC7): For helping with lots of different parts like questions and help picking out the Xiao ESP32 S3. Also, for giving my tips on picking out parts.
 - [@alexren](https://hackclub.slack.com/team/U06PR6B8D37) and [@acon](https://hackclub.slack.com/team/U04KEK4TS72): For being great event organisers and creating Highway for me to do this.
 - Whoever is looking over the project: I hope you enjoy reading all this. Thanks for your feedback once you finish.
 
