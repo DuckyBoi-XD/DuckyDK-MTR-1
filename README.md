@@ -11,6 +11,7 @@ This is a Metronome device called the DuckyDK MTR-1. This is for musicians, like
 
 ## PCB wiring (RED LINES)
 <img width="500" alt="Screenshot 2025-07-05 at 12 15 48 PM" src="https://github.com/user-attachments/assets/bd7fd55f-9ef2-4590-bb66-2aebeef9a0f1" />
+
 (I didn't know how to make this look nice.)
 
 ## Fusion Case
