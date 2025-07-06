@@ -1,7 +1,7 @@
 # DuckyDK-MTR-1
 
 ### Description
-This is a Metronome device called the DuckyDK MTR-1. This is for musicians, like me, who need a portable metronome that can be used anywhere. It is designed in a compact form to maximize space usage and portability. 
+This is a Metronome device called the DuckyDK MTR-1. This is for musicians, like me, who need a portable metronome that can be used anywhere. It is designed in a compact form to maximize space usage and portability.
 
 ## Kicad Schematic
 <img width="500" alt="Screenshot 2025-07-05 at 12 15 32 PM" src="https://github.com/user-attachments/assets/f2c3c3cd-cb48-4ade-b3a3-bd41635f7fe4" />
@@ -21,7 +21,7 @@ This is a Metronome device called the DuckyDK MTR-1. This is for musicians, like
 <img width="500" alt="Screenshot 2025-07-04 at 5 18 35 PM" src="https://github.com/user-attachments/assets/a01da600-e194-4737-8f38-2c91e4207637" />
 
 ### Inspiration
-This idea was thought of and inspired when I bought a new drum kit which I loved, and I wanted to think of different projects I could make which is connected to my drum kit. One idea that was obvious was to make a custom metronome. This is the result of that idea. Even though devices like laptops can do this, I wanted to make a portable, offline metronome what is not reliant on any device and can be brought along to many places. 
+This idea was thought of and inspired when I bought a new drum kit which I loved, and I wanted to think of different projects I could make which is connected to my drum kit. One idea that was obvious was to make a custom metronome. This is the result of that idea. Even though devices like laptops can do this, I wanted to make a portable, offline metronome that is not reliant on any device and can be brought along to many places. The price of a drum metronome was also expensive, which I found weird, so I wanted to try to do it myself
 
 **Name**
 The name DuckyDK MTR-1 is from many things. **Ducky** comes from my username **Ducky**Boi_XD, **DK** is/comes from **D**rum **K**it or **D**uc**k**. **MTR** comes from **M**etronome, while the **1** indicates that this is the first version of this metronome project.
