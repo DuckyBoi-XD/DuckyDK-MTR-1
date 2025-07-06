@@ -691,3 +691,16 @@ P.S. I wrote this around 5:30 pm, and I sent a message on Slack to look over my 
 Time spent (till 5:30 pm): 3 hours
 ---
 
+### July 6 
+
+### BOM Actual Finish 2
+Last night, I sent out a message on the highway for people to look over my repo. I understand that there are already going to be people looking through my repo to see if it gets passed on to assigned people to review, but I knew if it was denided it would take way longer. I sent out the message, and I got a bunch of feedback back. One of them was a thought that my project might not be a 6 point project. To be fair, I understood that he might have thought that it was a 4-point project, but I did so much work for it. I also got feedback about my BOM and how the capacitors were too expensive as well as my components. This was a long rabbit hole, but at the end I only siwtched the capacitors and resistors form digikey, to capacitor and resaistor kits from Aliexpress. They weren't 'cheaper', but it was way cheaper per piece. Wait, the suggestion with cheaper components, I was told that it was cheaper to buy from Aliexpress, and all compoents form Digikey that I sourced was on Aliexpress. This was probably true, for the most part. Only a few components were even on Aliexpress, and only one of them was cheaper (per piece). I decided not to switch it because I knew it was not worth it cue to the $50 free shipping and reliability. 
+
+### REPO ACTUALLY FINISHED
+
+This is my last journal and I can safely confirm that I'm acutally finshed. After I finish this log, I am going to send the form for this. I did some last touches, like creating short READMEs for each folder, and updated the main README and BOM. P.S. There is a spelling error in the BOM but I am too lazy to fix just one error.
+
+### Thoughs
+Finally, I have finished.
+
+Time spent: 4 hours
