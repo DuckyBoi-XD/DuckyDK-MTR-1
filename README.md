@@ -84,7 +84,7 @@ The BOM contains some items that are components that will help a huge amount wit
 | Total: | $104.34 (BASE COMPONENTS TOTAL) | $129.69 (ALL TOTAL) | 
 |--------|---------------------------------|---------------------|
 ### Construction
-The DuckyDK MTR-1 was mainly made using Kicad, Fusion 360, Github and Slack. I made all the PCB schematics and design of the PCB in Kicad, while I made the 3D model of the case in Fusion 360. I used GitHub to document my process of making the project and Slack to help me answer questions. I spent a lot of time researching and reading through data sheets and answers to questions to figure out new things I didn't understand. I learnt a lot through this project and I hope people cna see and understand.
+The DuckyDK MTR-1 was mainly made using Kicad, Fusion 360, Github and Slack. I made all the PCB schematics and design of the PCB in Kicad, while I made the 3D model of the case in Fusion 360. I used GitHub to document my process of making the project and Slack to help me answer questions. I spent a lot of time researching and reading through data sheets and answers to questions to figure out new things I didn't understand. I learnt a lot through this project and I hope people can see and understand.
 
 ### Credit
 Cheers to all these people for helping make this project possible.
@@ -92,6 +92,7 @@ Cheers to all these people for helping make this project possible.
 - [@Ryan Green](https://hackclub.slack.com/team/U090854913L): For helping me understand how to source parts and pick out a few parts for me to use.
 - [@Person20020 (Koji)](https://hackclub.slack.com/team/U07QNKS5SKA): For helping me with PCB problems even when he's mainly helps with HackPad problems, also he helped with my HackPad.
 - [@QinCai](https://hackclub.slack.com/team/U07BNRCEARM): For helping me answer questions and creating the code part of the project.
+- [@Niko](https://hackclub.slack.com/team/U07960MD940): For helping answer importing questions about 3d printing and potentally printing my project.
 - [Rudy](https://hackclub.slack.com/team/U079HV9PTC7): For helping with lots of different parts like questions and help picking out the Xiao ESP32 S3. Also, for giving my tips on picking out parts.
 - [@alexren](https://hackclub.slack.com/team/U06PR6B8D37) and [@acon](https://hackclub.slack.com/team/U04KEK4TS72): For being great event organisers and creating Highway for me to do this.
 - Whoever is looking over the project: I hope you enjoy reading all this. Thanks for your feedback once you finish.
