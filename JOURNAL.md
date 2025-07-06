@@ -706,3 +706,4 @@ This is my last journal and I can safely confirm that I'm acutally finshed. Afte
 Finally, I have finished.
 
 Time spent: 4 hours
+---
