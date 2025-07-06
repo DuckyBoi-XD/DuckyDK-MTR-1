@@ -43,7 +43,7 @@ These are the features that are implemented in the DuckyDK MTR-1:
 ### BOM (Bill of Materials)
 
 #### NOTE
-Aliexpress prices may change, all prices are based of no sales or coupons (except for hot plate), so the final result of the price would be less.
+Aliexpress prices may change, all prices are based of no sales or coupons (except for hot plate), so this is the max price possible, and the final result of the price would be reduced.
 
 (GST) = General sales tax, it's calculated at the last **GST** 
 Tax is calculated at the last **TAX**
@@ -56,7 +56,7 @@ The BOM contains some items that are components that will help a huge amount wit
 
 | Component | Quantity | Description | Base Price | Extra Costs | Link | 
 |-----------|----------|-------------|------------|-------------|------|
-| Xiao ESP32-S3 Plus | 1 | MCU (Micro controller Unit) (Digikey) | $7.99 | (**GST**) | https://www.digikey.co.nz/en/products/detail/seeed-technology-co-ltd/102010671/26553873 | 
+| Xiao ESP32-S3 Plus | 1 | MCU (Microcontroller Unit) (Digikey) | $7.99 | (**GST**) | https://www.digikey.co.nz/en/products/detail/seeed-technology-co-ltd/102010671/26553873 | 
 | PCM5102APWR | 1 | DAC (Digital to Analog Converter) (Digikey) | $4.43 | (**GST**) | https://www.digikey.co.nz/en/products/detail/texas-instruments/PCM5102APWR/3727211?s=N4IgTCBcDaIAoGECyBWAjABjAQTgdQCUQBdAXyA |
 | MAX9722AEUE+ | 1 | AMP (Audio Amplifier) (Digikey) | $1.52  | (**GST**) | https://www.digikey.co.nz/en/products/detail/analog-devices-inc-maxim-integrated/MAX9722AEUE/1495288 | 
 | SJ1-3514N | 1 | 3.5mm Headphone Jack (Digikey) | $1.19  | (**GST**) | https://www.digikey.co.nz/en/products/detail/same-sky-formerly-cui-devices/sj1-3514n/738685 | 
