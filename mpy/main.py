@@ -37,7 +37,7 @@ import time
 from machine import Pin, ADC, I2C, Timer, I2S
 
 PIN_POTENTIOMETER = 1
-PIN_BUTTON_TS = 4  # Time signature button
+PIN_BUTTON_TS = 4  # Time signature button (this is on the encoder)
 PIN_ENCODER_A = 2
 PIN_ENCODER_B = 3
 PIN_BUTTON1 = 9
