@@ -31,7 +31,7 @@
  */
 """
 
-import machine
+#import machine
 import ssd1306
 import time
 from machine import Pin, ADC, I2C, Timer, I2S
