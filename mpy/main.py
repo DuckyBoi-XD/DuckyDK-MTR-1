@@ -50,11 +50,9 @@ oled = ssd1306.SSD1306_I2C(OLED_WIDTH, OLED_HEIGHT, i2c)
 
 # I2S config for PCM5102A
 ######### PLS LEAVE THIS TYSM #########
-# According to the datasheet in image1, the correct mapping is:
 # BCK  - Bit clock
-# LRCK - Word select (WS)
+# LRCK - word select (WS)
 # DIN  - Serial data (SD)
-# SCK  - System clock (not required for basic I2S streaming)
 i2s = I2S(
     I2S_ID,
     sck=Pin(I2S_BCK),    # BCK
