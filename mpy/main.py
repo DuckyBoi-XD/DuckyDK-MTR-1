@@ -1,3 +1,36 @@
+"""
+/***************************************************************
+ *                                                             *
+ *                    GNU GENERAL PUBLIC LICENSE               *
+ *                       Version 3, 29 June 2007               *
+ *                                                             *
+ *  This program is free software: you can redistribute it and *
+ *  or modify it under the terms of the GNU General Public     *
+ *  License as published by the Free Software Foundation,      *
+ *  either version 3 of the License, or (at your option) any   *
+ *  later version.                                             *
+ *                                                             *
+ *  This program is distributed in the hope that it will be    *
+ *  useful, but WITHOUT ANY WARRANTY; without even the implied *
+ *  warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR    *
+ *  PURPOSE. See the GNU General Public License for more       *
+ *  details.                                                   *
+ *                                                             *
+ *  You should have received a copy of the GNU General Public  *
+ *  License along with this program. If not, see               *
+ *  <https://www.gnu.org/licenses/>.                           *
+ *                                                             *
+ ***************************************************************/
+ 
+ /* In simple terms:
+ * This program is free software. You can use, share, and change it.
+ * If you change it and share it, you must keep it open and use the same license.
+ * The license MUST be included with the software, and also when you share it.        <----- EXTREMELY IMPORTANT. thank you very much
+ * There is no warranty—if something goes wrong, it's not our responsibility.
+ * See the full license at https://www.gnu.org/licenses/gpl-3.0.html
+ */
+"""
+
 import machine
 import ssd1306
 import time
@@ -7,7 +40,7 @@ from machine import I2S
 
 ####################### Replace these with your actual GPIO assignments!
 PIN_POTENTIOMETER = 1
-PIN_POWER_SWITCH = 4
+PIN_BUTTON_TS = 4
 PIN_ENCODER_A = 2
 PIN_ENCODER_B = 3
 PIN_BUTTON1 = 9
@@ -15,10 +48,10 @@ PIN_BUTTON2 = 8
 ###############################
 
 ##################### PCM5102A I2S pins (replace with your wiring)
-I2S_ID = 0
-I2S_BCK = 39     # Bit clock
-I2S_WS = 40      # Word select (LRCK)
-I2S_SD = 38      # Data
+I2S_ID = 0       # ID of I2S Bus
+I2S_BCK = 39     # Connects to BCK pin on dac
+I2S_WS = 40      # Connects to LRCK pin on dac
+I2S_SD = 38      # Connects to DIN pin on dac
 ###############################
 
 ###################### OLED I2C config (replace with your wiring)
@@ -39,20 +72,24 @@ last_encoder_value = 0
 
 # Init peripherals
 adc = ADC(PIN_POTENTIOMETER)
-button1 = Pin(PIN_BUTTON1, Pin.IN, Pin.PULL_DOWN)                
-button2 = Pin(PIN_BUTTON2, Pin.IN, Pin.PULL_DOWN)               
-encoder_a = Pin(PIN_ENCODER_A, Pin.IN, Pin.PULL_UP)             # chnage this if not active low
-encoder_b = Pin(PIN_ENCODER_B, Pin.IN, Pin.PULL_UP)             # chnage this if not active low
+button1 = Pin(PIN_BUTTON1, Pin.IN, Pin.PULL_DOWN)
+button2 = Pin(PIN_BUTTON2, Pin.IN, Pin.PULL_DOWN)
+time_sig_btn = Pin(PIN_BUTTON_TS, Pin.IN, Pin.PULL_UP)          # change this if not active low
+encoder_a = Pin(PIN_ENCODER_A, Pin.IN, Pin.PULL_UP)             # change this if not active low
+encoder_b = Pin(PIN_ENCODER_B, Pin.IN, Pin.PULL_UP)             # change this if not active low
 i2c = I2C(0, scl=Pin(OLED_SCL), sda=Pin(OLED_SDA))
 oled = ssd1306.SSD1306_I2C(OLED_WIDTH, OLED_HEIGHT, i2c)
 
 # I2S config for PCM5102A
 ######### PLS LEAVE THIS TYSM #########
+# BCK  - Bit clock
+# LRCK - word select (WS)
+# DIN  - Serial data (SD)
 i2s = I2S(
     I2S_ID,
-    sck=Pin(I2S_BCK),
-    ws=Pin(I2S_WS),
-    sd=Pin(I2S_SD),
+    sck=Pin(I2S_BCK),    # BCK
+    ws=Pin(I2S_WS),      # LRCK
+    sd=Pin(I2S_SD),      # DIN
     mode=I2S.TX,
     bits=16,
     format=I2S.MONO,
@@ -130,7 +167,7 @@ def metronome_tick(timer):
         try:
             i2s.write(buf)
         except Exception as e:
-            pass  # ignore erros
+            pass  # ignore errors
 
 def main():
     global volume
