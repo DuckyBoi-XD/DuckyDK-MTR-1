@@ -36,28 +36,22 @@ import ssd1306
 import time
 from machine import Pin, ADC, I2C, Timer, I2S
 
-####################### Replace these with your actual GPIO assignments!
 PIN_POTENTIOMETER = 1
 PIN_BUTTON_TS = 4  # Time signature button
 PIN_ENCODER_A = 2
 PIN_ENCODER_B = 3
 PIN_BUTTON1 = 9
 PIN_BUTTON2 = 8
-###############################
 
-##################### PCM5102A I2S pins (replace with your wiring)
 I2S_ID = 0       # ID of I2S Bus
 I2S_BCK = 39     # Connects to BCK pin on dac
 I2S_WS = 40      # Connects to LRCK pin on dac
 I2S_SD = 38      # Connects to DIN pin on dac
-###############################
 
-###################### OLED I2C config (replace with your wiring)
 OLED_SCL = 6
 OLED_SDA = 5
 OLED_WIDTH = 128
 OLED_HEIGHT = 64
-################################
 
 
 # Constants
@@ -92,8 +86,6 @@ encoder_b = Pin(PIN_ENCODER_B, Pin.IN, Pin.PULL_UP)
 i2c = I2C(0, scl=Pin(OLED_SCL), sda=Pin(OLED_SDA))
 oled = ssd1306.SSD1306_I2C(OLED_WIDTH, OLED_HEIGHT, i2c)
 
-# I2S config for PCM5102A
-######### PLS LEAVE THIS TYSM #########
 # BCK  - Bit clock
 # LRCK - word select (WS)
 # DIN  - Serial data (SD)
@@ -108,7 +100,6 @@ i2s = I2S(
     rate=22050,
     ibuf=4096
 )
-################################
 
 def read_volume():
     raw = adc.read()
