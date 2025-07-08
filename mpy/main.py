@@ -15,10 +15,11 @@ PIN_BUTTON2 = 6
 ###############################
 
 ##################### PCM5102A I2S pins (replace with your wiring)
-I2S_ID = 0
-I2S_BCK = 7     # Bit clock
-I2S_WS = 8      # Word select (LRCK)
-I2S_SD = 9      # Data
+
+I2S_ID = 0      # ID of I2S Bus
+I2S_BCK = 7     # Connects to BCK pin on dac
+I2S_WS = 8      # Connects to LRCK pin on dac
+I2S_SD = 9      # Connects to DIN pin on dac
 ###############################
 
 ###################### OLED I2C config (replace with your wiring)
@@ -39,21 +40,26 @@ last_encoder_value = 0
 
 # Init peripherals
 adc = ADC(PIN_POTENTIOMETER)
-button1 = Pin(PIN_BUTTON1, Pin.IN, Pin.PULL_UP)                 # chnage this if not active low
-button2 = Pin(PIN_BUTTON2, Pin.IN, Pin.PULL_UP)                 # chnage this if not active low 
-power_switch = Pin(PIN_POWER_SWITCH, Pin.IN, Pin.PULL_UP)       # chnage this if not active low
-encoder_a = Pin(PIN_ENCODER_A, Pin.IN, Pin.PULL_UP)             # chnage this if not active low
-encoder_b = Pin(PIN_ENCODER_B, Pin.IN, Pin.PULL_UP)             # chnage this if not active low
+button1 = Pin(PIN_BUTTON1, Pin.IN, Pin.PULL_UP)                 # change this if not active low
+button2 = Pin(PIN_BUTTON2, Pin.IN, Pin.PULL_UP)                 # change this if not active low 
+power_switch = Pin(PIN_POWER_SWITCH, Pin.IN, Pin.PULL_UP)       # change this if not active low
+encoder_a = Pin(PIN_ENCODER_A, Pin.IN, Pin.PULL_UP)             # change this if not active low
+encoder_b = Pin(PIN_ENCODER_B, Pin.IN, Pin.PULL_UP)             # change this if not active low
 i2c = I2C(0, scl=Pin(OLED_SCL), sda=Pin(OLED_SDA))
 oled = ssd1306.SSD1306_I2C(OLED_WIDTH, OLED_HEIGHT, i2c)
 
 # I2S config for PCM5102A
 ######### PLS LEAVE THIS TYSM #########
+# According to the datasheet in image1, the correct mapping is:
+# BCK  - Bit clock
+# LRCK - Word select (WS)
+# DIN  - Serial data (SD)
+# SCK  - System clock (not required for basic I2S streaming)
 i2s = I2S(
     I2S_ID,
-    sck=Pin(I2S_BCK),
-    ws=Pin(I2S_WS),
-    sd=Pin(I2S_SD),
+    sck=Pin(I2S_BCK),    # BCK
+    ws=Pin(I2S_WS),      # LRCK
+    sd=Pin(I2S_SD),      # DIN
     mode=I2S.TX,
     bits=16,
     format=I2S.MONO,
@@ -131,7 +137,7 @@ def metronome_tick(timer):
         try:
             i2s.write(buf)
         except Exception as e:
-            pass  # ignore erros
+            pass  # ignore errors
 
 def main():
     global volume
