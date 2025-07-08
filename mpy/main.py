@@ -1,3 +1,36 @@
+"""
+/***************************************************************
+ *                                                             *
+ *                    GNU GENERAL PUBLIC LICENSE               *
+ *                       Version 3, 29 June 2007               *
+ *                                                             *
+ *  This program is free software: you can redistribute it and *
+ *  or modify it under the terms of the GNU General Public     *
+ *  License as published by the Free Software Foundation,      *
+ *  either version 3 of the License, or (at your option) any   *
+ *  later version.                                             *
+ *                                                             *
+ *  This program is distributed in the hope that it will be    *
+ *  useful, but WITHOUT ANY WARRANTY; without even the implied *
+ *  warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR    *
+ *  PURPOSE. See the GNU General Public License for more       *
+ *  details.                                                   *
+ *                                                             *
+ *  You should have received a copy of the GNU General Public  *
+ *  License along with this program. If not, see               *
+ *  <https://www.gnu.org/licenses/>.                           *
+ *                                                             *
+ ***************************************************************/
+ 
+ /* In simple terms:
+ * This program is free software. You can use, share, and change it.
+ * If you change it and share it, you must keep it open and use the same license.
+ * The license MUST be included with the software, and also when you share it.        <----- EXTREMELY IMPORTANT. thank you very much
+ * There is no warranty—if something goes wrong, it's not our responsibility.
+ * See the full license at https://www.gnu.org/licenses/gpl-3.0.html
+ */
+"""
+
 import machine
 import ssd1306
 import time
