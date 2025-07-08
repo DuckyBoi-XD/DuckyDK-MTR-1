@@ -22,13 +22,12 @@
  *                                                             *
  ***************************************************************/
  
- /* In simple terms:
+In simple terms:
  * This program is free software. You can use, share, and change it.
  * If you change it and share it, you must keep it open and use the same license.
  * The license MUST be included with the software, and also when you share it.        <----- EXTREMELY IMPORTANT. thank you very much
  * There is no warranty—if something goes wrong, it's not our responsibility.
  * See the full license at https://www.gnu.org/licenses/gpl-3.0.html
- */
 """
 
 #import machine
