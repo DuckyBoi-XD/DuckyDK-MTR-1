@@ -40,24 +40,23 @@ from machine import I2S
 
 ####################### Replace these with your actual GPIO assignments!
 PIN_POTENTIOMETER = 1
-PIN_POWER_SWITCH = 2
-PIN_ENCODER_A = 3
-PIN_ENCODER_B = 4
-PIN_BUTTON1 = 5
-PIN_BUTTON2 = 6
+PIN_BUTTON_TS = 4
+PIN_ENCODER_A = 2
+PIN_ENCODER_B = 3
+PIN_BUTTON1 = 9
+PIN_BUTTON2 = 8
 ###############################
 
 ##################### PCM5102A I2S pins (replace with your wiring)
-
-I2S_ID = 0      # ID of I2S Bus
-I2S_BCK = 7     # Connects to BCK pin on dac
-I2S_WS = 8      # Connects to LRCK pin on dac
-I2S_SD = 9      # Connects to DIN pin on dac
+I2S_ID = 0       # ID of I2S Bus
+I2S_BCK = 39     # Connects to BCK pin on dac
+I2S_WS = 40      # Connects to LRCK pin on dac
+I2S_SD = 38      # Connects to DIN pin on dac
 ###############################
 
 ###################### OLED I2C config (replace with your wiring)
-OLED_SCL = 10
-OLED_SDA = 11
+OLED_SCL = 6
+OLED_SDA = 5
 OLED_WIDTH = 128
 OLED_HEIGHT = 64
 ################################
@@ -73,9 +72,9 @@ last_encoder_value = 0
 
 # Init peripherals
 adc = ADC(PIN_POTENTIOMETER)
-button1 = Pin(PIN_BUTTON1, Pin.IN, Pin.PULL_UP)                 # change this if not active low
-button2 = Pin(PIN_BUTTON2, Pin.IN, Pin.PULL_UP)                 # change this if not active low 
-power_switch = Pin(PIN_POWER_SWITCH, Pin.IN, Pin.PULL_UP)       # change this if not active low
+button1 = Pin(PIN_BUTTON1, Pin.IN, Pin.PULL_DOWN)
+button2 = Pin(PIN_BUTTON2, Pin.IN, Pin.PULL_DOWN)
+time_sig_btn = Pin(PIN_BUTTON_TS, Pin.IN, Pin.PULL_UP)          # change this if not active low
 encoder_a = Pin(PIN_ENCODER_A, Pin.IN, Pin.PULL_UP)             # change this if not active low
 encoder_b = Pin(PIN_ENCODER_B, Pin.IN, Pin.PULL_UP)             # change this if not active low
 i2c = I2C(0, scl=Pin(OLED_SCL), sda=Pin(OLED_SDA))
