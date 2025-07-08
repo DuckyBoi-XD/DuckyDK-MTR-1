@@ -34,13 +34,11 @@
 import machine
 import ssd1306
 import time
-from machine import Pin, ADC, I2C, Timer
-
-from machine import I2S
+from machine import Pin, ADC, I2C, Timer, I2S
 
 ####################### Replace these with your actual GPIO assignments!
 PIN_POTENTIOMETER = 1
-PIN_BUTTON_TS = 4
+PIN_BUTTON_TS = 4  # Time signature button
 PIN_ENCODER_A = 2
 PIN_ENCODER_B = 3
 PIN_BUTTON1 = 9
@@ -61,22 +59,36 @@ OLED_WIDTH = 128
 OLED_HEIGHT = 64
 ################################
 
-# global vars
+
+# Constants
+ADC_MAX = 4095
+AMP_MAX = 0x7FFF
+OLED_UPDATE_INTERVAL = 0.05
+
+# Global vars
 bpm = 120
 volume = 50
 is_running = False
 presets = [60, 120, 180]
 preset_index = 0
-time_signature = "4/4"
 last_encoder_value = 0
+
+# Time signature logic
+TIME_SIGNATURES = [
+    {"name": "4/4", "pattern": ["B", "b", "b", "b"]},
+    {"name": "3/4", "pattern": ["B", "b", "b"]},
+    {"name": "6/8", "pattern": ["B", "b", "b", "b", "b", "b"]},
+]
+time_signature_index = 0
+current_beat = 0
 
 # Init peripherals
 adc = ADC(PIN_POTENTIOMETER)
 button1 = Pin(PIN_BUTTON1, Pin.IN, Pin.PULL_DOWN)
 button2 = Pin(PIN_BUTTON2, Pin.IN, Pin.PULL_DOWN)
-time_sig_btn = Pin(PIN_BUTTON_TS, Pin.IN, Pin.PULL_UP)          # change this if not active low
-encoder_a = Pin(PIN_ENCODER_A, Pin.IN, Pin.PULL_UP)             # change this if not active low
-encoder_b = Pin(PIN_ENCODER_B, Pin.IN, Pin.PULL_UP)             # change this if not active low
+time_sig_btn = Pin(PIN_BUTTON_TS, Pin.IN, Pin.PULL_DOWN)  # Active low
+encoder_a = Pin(PIN_ENCODER_A, Pin.IN, Pin.PULL_UP)
+encoder_b = Pin(PIN_ENCODER_B, Pin.IN, Pin.PULL_UP)
 i2c = I2C(0, scl=Pin(OLED_SCL), sda=Pin(OLED_SDA))
 oled = ssd1306.SSD1306_I2C(OLED_WIDTH, OLED_HEIGHT, i2c)
 
@@ -100,7 +112,7 @@ i2s = I2S(
 
 def read_volume():
     raw = adc.read()
-    vol = int(raw / 4095 * 100)
+    vol = int(raw / ADC_MAX * 100)
     return vol
 
 def set_volume(vol):
@@ -135,20 +147,37 @@ def draw_oled():
         oled.text(str(val), 114, y+2)
         if i == preset_index:
             oled.hline(110, y+13, 15, 1)
-    oled.text(time_signature, 54, 56)
+    oled.text(TIME_SIGNATURES[time_signature_index]["name"], 54, 56)
     oled.show()
 
 def handle_buttons():
-    global is_running, preset_index, bpm
-    if not button1.value():  # Active low
+    global is_running, preset_index, bpm, time_signature_index, current_beat
+    # Debounce state
+    static_btn1 = getattr(handle_buttons, "_btn1", 1)
+    static_btn2 = getattr(handle_buttons, "_btn2", 1)
+    static_ts = getattr(handle_buttons, "_ts", 1)
+
+    btn1 = button1.value()
+    btn2 = button2.value()
+    ts_btn = time_sig_btn.value()
+
+    # Button 1: Start/stop
+    if not btn1 and static_btn1:
         is_running = not is_running
-        time.sleep(0.2)
-    if not button2.value():  # Active low
+    # Button 2: Preset
+    if not btn2 and static_btn2:
         preset_index = (preset_index + 1) % len(presets)
         bpm = presets[preset_index]
-        time.sleep(0.2)
+    # Time signature button
+    if not ts_btn and static_ts:
+        time_signature_index = (time_signature_index + 1) % len(TIME_SIGNATURES)
+        current_beat = 0
 
-# Generate a short "tick" sound 
+    # Save last state for debounce
+    handle_buttons._btn1 = btn1
+    handle_buttons._btn2 = btn2
+    handle_buttons._ts = ts_btn
+
 def tick_pcm_buf(amp=0x4000, duration_ms=50, rate=22050):
     # Simple click: short burst of high amplitude, then silence. basically a square wave.
     n_samples = int(rate * duration_ms / 1000)
@@ -160,25 +189,31 @@ def tick_pcm_buf(amp=0x4000, duration_ms=50, rate=22050):
     return buf
 
 def metronome_tick(timer):
+    global current_beat
     if is_running:
-        # Volume maps: 0-100 -> 0-0x7FFF
-        amp = int(volume / 100 * 0x7FFF)
+        pattern = TIME_SIGNATURES[time_signature_index]["pattern"]
+        accent = pattern[current_beat]
+        # Stressed beat: louder
+        if accent == "B":
+            amp = int(volume / 100 * AMP_MAX)
+        else:
+            amp = int(volume / 100 * (AMP_MAX // 3))
         buf = tick_pcm_buf(amp)
         try:
             i2s.write(buf)
         except Exception as e:
-            pass  # ignore errors
+            print("I2S error:", e)
+        current_beat = (current_beat + 1) % len(pattern)
 
 def main():
     global volume
     metronome_timer = Timer(0)
     metronome_timer.deinit()
+    last_bpm = bpm
+    last_time_sig = time_signature_index
+    last_volume = volume
+    last_preset = preset_index
     while True:
-        if not power_switch.value():
-            oled.poweroff()
-            continue
-        else:
-            oled.poweron()
         rotary_encoder_update()
         handle_buttons()
         volume = read_volume()
@@ -188,8 +223,14 @@ def main():
             metronome_timer.init(period=interval_ms, mode=Timer.PERIODIC, callback=metronome_tick)
         else:
             metronome_timer.deinit()
-        draw_oled()
-        time.sleep(0.05)
+        # Only update OLED if something changed
+        if (bpm != last_bpm or time_signature_index != last_time_sig or volume != last_volume or preset_index != last_preset):
+            draw_oled()
+            last_bpm = bpm
+            last_time_sig = time_signature_index
+            last_volume = volume
+            last_preset = preset_index
+        time.sleep(OLED_UPDATE_INTERVAL)
 
 if __name__ == "__main__":
     main()
