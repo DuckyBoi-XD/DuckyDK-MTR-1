@@ -36,7 +36,7 @@ PS. When signing up for the Seeed Studio, I got a $5 coupon for my first purchas
 <img width="200" alt="Screenshot 2025-06-10 at 5 21 27 PM" src="https://github.com/user-attachments/assets/163a0939-bcf1-40a7-81f7-4eed523d4592" />
 <img width="200" alt="Screenshot 2025-06-10 at 5 34 51 PM" src="https://github.com/user-attachments/assets/1c424e47-eb16-4f9a-adc5-f1a61e42d2c4" />
 
-Time spent: 12 hours
+Time spent: 6 hours
 ---
 # June 8
 
@@ -56,7 +56,7 @@ https://nz.mouser.com/ProductDetail/Texas-Instruments/TPA6139A2PWR?qs=TeC8nwD7mV
 
 (PRICES ARE IN NZD)
 
-Time spent: 3 hours
+Time spent: 1 hour
 ---
 # June 9
 
@@ -68,7 +68,7 @@ I wanted a decently sized screen due to the amount of information I wanted on it
 
 <img width="350" alt="Screenshot 2025-06-10 at 7 11 07 PM" src="https://github.com/user-attachments/assets/0b4aaea1-9d80-48a9-9b63-0eff744c0e7e" />
 
-Time spent: 6 hours
+Time spent: 3 hours
 ---
 
 # June 10
@@ -83,7 +83,7 @@ https://nz.mouser.com/ProductDetail/Same-Sky/PTN091-H50115K1A?qs=IKkN%2F947nfAyO
 <img width="300" alt="Screenshot 2025-06-11 at 8 13 15 PM" src="https://github.com/user-attachments/assets/46923e75-e0a7-4033-abb0-986c685fc835" />
 <img width="800" alt="Screenshot 2025-06-11 at 8 24 27 PM" src="https://github.com/user-attachments/assets/829590b6-f220-461a-8f86-4893c1a4d75a" />
 
-Time spent: 6 hours
+Time spent: 3 hours
 ---
 
 # June 11
@@ -102,7 +102,7 @@ This was hard for me because I didn't know where to buy it. I ended up having to
 
 <img width="400" alt="Screenshot 2025-06-12 at 8 27 30 PM" src="https://github.com/user-attachments/assets/e2e1f05f-a3f5-4013-a43c-ed77984b6682" />
 
-Time spent: 6 hours
+Time spent: 3 hours
 ---
 # June 12
 
@@ -122,7 +122,7 @@ I started and filled out a BOM (Bill of Materials) for all the parts I was going
 
 <img width="1197" alt="Screenshot 2025-06-12 at 8 55 00 PM" src="https://github.com/user-attachments/assets/87918fa5-630a-43cb-a25c-f2d16f1a4efc" />
 
-Time spent: 6 hours
+Time spent: 3 hours
 ---
 
 # June 13
@@ -158,7 +158,7 @@ https://www.digikey.co.nz/en/products/detail/adafruit-industries-llc/4691/131709
 
 <img width="400" alt="Screenshot 2025-06-14 at 12 50 50 AM" src="https://github.com/user-attachments/assets/71c9860f-f465-4735-ad4a-d0c25c4ac136" />
 
-Time spent: 8 hours
+Time spent: 4 hours
 ---
 
 # June 14
@@ -185,7 +185,7 @@ Today I decided I should have a thoughts section where I give my thoughts about 
 I also thought about how I was going to show how the parts are going to be connected, since some parts would be on the case and not the PCB.
 
 
-Time spent: 7 hours
+Time spent: 3 hours
 ---
 
 # June 15
@@ -228,7 +228,7 @@ I figured out how to connect the components to the PCB that are in the case, yay
 
 Still trying to figure out what all the pins mean.
 
-Time spent: 8 hours
+Time spent: 4 hours
 ---
 
 # June 16
@@ -248,7 +248,7 @@ I didn't really do much with the LED; the only thing I did was to change where t
 ### Thought
 I still have to find an AMP that works with the DAC. 
 
-Time spent: 6
+Time spent: 3
 ---
 
 # June 17
@@ -268,7 +268,7 @@ Today, I did a little bit of research on the DAC and AMP pins, and I connected o
 ### Thoughts 
 Technically, at around 11 pm I sent out a message on Slack asking for help with the wiring (because I knew it was terrible) and I did get a response, but it was at midnight, so I'm going to refer it as tomorrows work.
 
-Time spent: 3 hours
+Time spent: 1 hour
 ---
 
 June 20
@@ -297,7 +297,7 @@ This was the first day I did work outside my house/city.
 
 At the moment, I am on a short holiday, relaxing with my family, but I was still able to get some awesome work done. 
 
-Time spent: 10 hours
+Time spent: 5 hours
 ---
 
 # June 21
@@ -328,7 +328,7 @@ I've now down the schematics parts of the project and I am now moving on to the 
 
 I sent the schematics to the others, and to be honest wasn't much help by they said it looked good. 
 
-Time spent: 9 hours
+Time spent: 4 hours
 ---
 
 # June 22
@@ -368,7 +368,7 @@ For today and a bit of yesterday's journal I used a code server for the journeyi
 
 I am also wondering how I am able to install the battery. Installing the battery requires connecting it to the +BAT and -BAT pin on the MCU. The problem is that the MCU will be on the pcb it would be cover the pins since the said pins are on the back side. 
 
-Time spent: 12 hours 
+Time spent: 6 hours 
 ---
  # June 23
 
@@ -382,7 +382,7 @@ Time spent: 12 hours
 
  I texted my friend about postponing the project and working on a new one (planning to do a simple macro pad) and to be honest he wasn't much help. He was more focused on me starting on his case for his own project. So I went to sleep to rethink the project
 
-Time spent: 5 hours
+Time spent: 2 hours
  ---
  # June 24
 
@@ -426,7 +426,7 @@ I have to update so much things due to me changing components its not funny.
 
 This one is even more important but I don't know where to put it but, I decided to not use a battery. Due to my inexperience, using the plug is the best way for me to make the project to make it simpler and for me to not worry about anything else. This also reminds me about my LED which I think I have mentioned but I'll just mention it again, I will be remove the LED's for simplicity for the PCB and case design.
 
-Time spent: 6 hours
+Time spent: 3 hours
 ---
 
 # June 25
@@ -449,7 +449,7 @@ I think I have finished picking out my components for my project but I would sti
 
 Even though this is not part of this project but my hackpad kit arrived which made me happy. Sadly my solder is still shipping and I don't have knobs or case for my pad so I would probably need to print them some how. 
 
-Time spent: 2 hours
+Time spent: 1 hours
 ---
 
 # June 26
@@ -490,7 +490,7 @@ I am still having difficulties with the DRC which bugs me.
 
 I talked with my friend and I'm planning to order smaller tips for my pinecil soldering iron, which in fact I haven't even gotten yet for my hackpad so.... yikes. Also soldering tweezers.
 
-Time spent: 5 hours
+Time spent: 2 hours
 ---
 
 ### June 27 
@@ -508,7 +508,7 @@ If none respond or doesn't respond with helpful information, I might just direct
 
 My school holidays has started so 24/7 grind baby.
 
-Time spent: 4 hours 
+Time spent: 2 hours 
 ---
 
 # June 28
@@ -531,7 +531,7 @@ I updated the BOM with the new items I found on Aliexpress. This made my realise
 ### Thoughts 
 This project is costing a lot more than I anticipated and I am just hoping that they would accept it. 
 
-Time spent: 5 hours
+Time spent: 2 hours
 ---
 
 # June 30
@@ -576,7 +576,7 @@ I talked with my friend about the pinecil tips. We were chatting about buying ti
 
 I'm taking more breaks since it is the school holidays and I want to relax and play with friends for a bit more.
 
-Time spent: 5 hours
+Time spent: 2 hours
 ---
 
 # July 1
@@ -589,7 +589,7 @@ Now that I have finally finished the PCB I focused of the case design for my pro
 ### Thoughts 
 Fusion doesn't track time or track time well so I'm not getting much hours off this. I'm mainly getting out the time spend writing in this journal but with simple explanations like this day was really quick to type.
 
-Time spent: 4 hours
+Time spent: 2 hours
 ---
 
 # July 2
@@ -609,7 +609,7 @@ I have to solve the problem with the buttons being too close to the PCB.
 
 I need to complete it soon because aliexpress has a sale which would be soo good.
 
-Time spent: 7 hours
+Time spent: 3 hours
 ---
 
 # July 3
@@ -640,7 +640,7 @@ After looking at the case, I realised that my potentiometer might not be able to
 
 I'm thinking of changing the potentiometer, which is a lot of work to be done. I'm not almost done D:
 
-Time spent: 9 hours 
+Time spent: 4 hours 
 ---
 
 # July 4
@@ -669,7 +669,7 @@ There are problems with committing from the code server which I don't understand
 
 P.S. This is me the next day importing the pictures (due to my power being wack due to a thunderstorm) and I realised I didn't take pictures before updating them even more.
 
-Time spent: 12 hours
+Time spent: 6 hours
 ---
 ### July 5
 
@@ -688,7 +688,7 @@ Also, I didn't really write much in the journal because I mainly wanted this to 
 
 P.S. I wrote this around 5:30 pm, and I sent a message on Slack to look over my repo, and it changed a lot, so I'm actually not finished.
 
-Time spent (till 5:30 pm): 3 hours
+Time spent (till 5:30 pm): 1 hours
 ---
 
 ### July 6 
@@ -705,5 +705,5 @@ This is my last journal and I can safely confirm that I'm acutally finshed. Afte
 ### Thoughts
 Finally, I have finished.
 
-Time spent: 9 hours
+Time spent: 4 hours
 ---
