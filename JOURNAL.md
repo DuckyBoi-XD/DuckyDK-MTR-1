@@ -5,6 +5,8 @@ description: "A metronome for any type of music practice which you can adjust BP
 created_at: "2025-06-07"
 ---
 
+Total Project Hour Count: 83
+
 # June 7
 
 I started noting down and researching what components my project will need before designing anything, so I will understand my budget constraint and models to use. 
