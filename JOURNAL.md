@@ -5,7 +5,7 @@ description: "A metronome for any type of music practice which you can adjust BP
 created_at: "2025-06-07"
 ---
 
-Total Project Hour Count: 83
+## Total Project Hour Count: 83
 
 # June 7
 
